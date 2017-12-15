@@ -1,0 +1,500 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+
+/* Police
+============================ */
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+@import 'bootstrap';
+
+
+/* Mes Modifications
+============================ */
+.logo-footer{
+  fill: #3E8161; 
+}
+/*
+[class*="col-"], footer {
+	background-color: lightgreen;
+	border: 2px solid black;
+	border-radius: 6px;
+	line-height: 40px;
+	text-align: center;
+}
+*/
+/* Iconfonts
+============================ */
+
+*{
+font-family: 'Rubik', sans-serif;
+}
+
+/* Body
+============================ */
+body {
+
+}
+
+/* Header
+=========================== */
+header {
+    width: 100%;
+    border-bottom: 1px solid blue;
+    background: #0d0d0d;   
+}
+
+/* Logo */
+header a.logo {
+    margin-left: 1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: blue;
+    line-height: 4em;
+}
+
+header a.logo span {
+    margin: 0 3px 0 3px;
+    color: lightblue;
+}
+
+/* Cart link */
+header a.cart-link {
+    float: right;
+    padding-left: 1em;
+    margin-right: 1em;
+    border-left: 1px dotted gray;
+    line-height: 4em;
+    text-decoration: none;
+    color: white;
+    transition: color 150ms ease-out;
+}
+
+header a.cart-link:hover {
+    color: blue;
+}
+
+header a.cart-link:active, header a.cart-link .active {
+    color: lightblue;
+}
+
+header span.cart-text:before {
+    margin: 5px;
+}
+
+header span.cart-text:before > span {
+    display: block;
+}
+
+/* Quantity Notification */
+
+header span.cart-quantity {
+    position: relative;
+    top: -2px;
+    left: 5px;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #f63;
+    font-size: .6em;
+    line-height: 20px;
+    text-align: center;
+    color: white;
+}
+
+ /* Quantity Notification hidden when no items*/
+
+header .cart-quantity.empty {
+    display: none;
+}
+
+/* Back button hidden by default */
+
+
+header .returnToShop {
+    display: none;
+}
+
+/* State changes when cart is active */
+
+header a.cart-link.active {
+    border: 0;
+}
+
+/* Cart link gets hidden*/
+
+header a.cart-link.active span.cart-text {
+    display: none;
+}
+
+header a.cart-link.active span.cart-quantity {
+    display: none;
+}
+
+/* Back button is displayed */
+header a.cart-link.active span.returnToShop {
+    position: absolute;
+    right: -75px;
+    display: block;
+    padding: 0 10px;
+    background: #0d0d0d;
+    border-right: 1px dotted #333333;
+}
+
+/* Sliding Cart
+=========================== */
+.wrap {
+    position: relative;
+    right: 0;
+    box-shadow: 10px -10px 20px -10px rgba(0, 0, 0, 0.8);
+    transition: all 200ms ease-out;
+}
+
+.wrap.active {
+    right: 18em;
+}
+
+#cart {
+    clear: both;
+    overflow: hidden;
+}
+
+.js #cart {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 18em;
+    height: 100%;
+}
+
+/* Shop & Product Items
+=========================== */
+
+.product {
+    position: relative;
+    z-index: 1;
+    float:left;
+    width: 21%;
+    height: 200px;
+    overflow: hidden;
+    background-size: cover;
+    margin-right: 30px;   
+    margin-top: 10px;  
+}
+
+/* Hide product descriptions */
+.product > * {
+    margin: 20px 25px;
+    opacity: 0;
+    transition: opacity 200ms ease-out;
+}
+
+/* On hover, adds overlay on top of product image */
+.product:hover:before {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    display: inline-block;
+    width: 100%;
+    height: 200px;
+    background: rgba(0, 0, 0, 0.4);
+    content: '';
+}
+
+/* On hover, fade in product descriptions */
+.product > * {
+    margin: 20px 25px;
+    opacity: 0;
+    transition: opacity 200ms ease-out;
+}
+
+.product:hover > *, .product .active {
+    opacity: 1;
+}
+
+ /* Styles for each shop item */
+ /* Nom de chaque item */
+.product h1 {
+    padding: 15px;
+    border-bottom: 1px dashed white;
+    font-size: 1.2em;
+    color: white;
+    text-align: center;
+}
+
+/* Item description */
+.product p {
+    margin-bottom: 30px;
+    line-height: 1.5em;
+}
+
+ /* "Add to Cart" Buttom with 3D transforms and keyframe animation (Works best in Chrome) */
+  /* Sert probablement à rien */
+.product .button {
+    position: relative;
+    display: block;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    perspective: 1000px;
+}
+
+/* Sert probablement à rien */
+.product .button .price {
+    position: absolute;
+    z-index: 1;
+    top: 2px;
+    display: block;
+    width: 50px;
+    height: 46px;
+    border-right: 1px solid lightblue;
+    border-radius: 2px 0 0 2px;
+    background: white;
+    line-height: 45px;
+    color: gray;
+    transform: rotateY(0deg) translateZ(25px);
+}
+
+/* Button magic orange */
+.product .button .addtocart {
+    position: absolute;
+    left: -21px;
+    width: 50%;
+    height: 50%;
+    transform-style: preserve-3d;
+    transform: translateZ(-100px);
+    transition: transform 300ms;
+    cursor: pointer;
+}
+
+.product .button .addtocart > div {
+    position: absolute;
+    display: block;
+    width: 150px;
+    height: 50px;
+    border-radius: 0 2px 2px 0;
+    line-height: 50px;
+}
+
+/* Button selection */
+.product .button .addtocart > .add {
+    background: #539575;
+
+    color: white;
+    transform: rotateY(0deg) translateZ(25px);
+    transition: background 150ms ease-out;
+}
+
+/* Button selection hover */
+.product .button .addtocart > .add:hover {
+    background: white;
+    color: #3E8161;
+}
+
+/* Item ajouté */
+.product .button .addtocart > .added {
+    background: #f63;
+    color: white;
+    transform: rotateX(90deg) translateZ(25px);
+}
+
+/* Rotation item ajouté */
+.product .button .addtocart.active {
+    animation-name: rotate;
+    animation-duration: 1s;
+}
+
+/* Cart & Cart Items 
+============================ */
+/* Fond derrière le bouton Valider */
+#cart {
+    background: white;
+
+}
+
+/* Titre : Your Shopping Cart; */
+#cart > h2 {
+    height: 64px;
+    padding-right: 1em;
+    background: #3E8161 !important;
+    /*border: 1px solid lightgreen;*/
+    margin: 0;
+    background: white;
+    font-weight: normal;
+    font-size: 1.2em;
+    text-align: right;
+    line-height: 64px;
+    color: white;
+}
+
+/* Styles for each cart item */
+.cart-items {
+    padding: 0;
+}
+
+.cart-items > li {
+    margin: 30px 20px 30px;
+    
+    background: transparent;
+    list-style: none;
+}
+
+/* Image des produits dans le shopping cart */
+.cart-product {
+    position: relative;
+    display: inline-block;
+    height: 120px; /* 140px si on veut vraiment centrer */
+    width: 90px;
+    background-image: url("https://cdn.shopify.com/s/files/1/0051/4802/products/MG_1785_1024x1024.jpg");
+    background-size: cover;
+    vertical-align: top; /* set la description au milieu */
+
+}
+
+/* Quantité indiqué dans le shopping cart */
+.cart-product input.quantity {
+    width: 90px;
+    height: 120px; /* 140px si on veut vraiment centrer */
+    padding: 0;
+    border: 0;
+    border-right: 5px solid #3E8161;
+    background: rgba(0, 0, 0, 0.20);
+    font-size: 2.5em;
+    line-height: 75px;
+    text-align: center;
+    color: white;
+}
+
+/* Div du texte de la description */
+.cart-description {
+    display: inline-block;
+    width: 160px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+/* Couleur de la description dans le shopping cart */
+.cart-description h3 {
+    margin: 28px;
+    font-size: 1.1em;
+    color: #3E8161;
+}
+
+
+.cart-description .subtotal {
+    position: relative;
+    display: inline-block;
+    margin: 8px;
+    font-size: .8em;
+}
+
+/* Mise en page div Valider sac de linge */
+.total {
+    margin-top: 50px;
+}
+
+.total > * {
+    display: block;
+    padding-bottom: 10px;
+    margin: 0 20px 10px 20px;
+    font-size: .8em;
+    text-align: left;
+}
+
+/* Bouton Valider sac de linge */
+a.checkout {
+    height: 35px;
+    padding: 0;
+    margin-top: 30px;
+    border-radius: 3px;
+    background: #3E8161;
+    color: white !important;
+    font-size: 1em;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 35px;
+    transition: background 150ms ease-out;
+    cursor: pointer;
+}
+
+a.checkout:hover {
+    background: #539575;
+}
+
+/* Bouton qui bouge une fois clique */
+a.checkout.active {
+    animation-name: shake;
+    animation-duration: 800ms;
+}
+
+/* Pour cacher ce qui apparait quand on clique sur le chargement des pressings */
+.error {
+    display: none;
+    text-align: center;
+}
+
+/* Chargement des pressings */
+.error:after {
+    display: block;
+    /* font-size: 1.3em; */
+    /* content: Nous cherchons les pressings à proximité; */
+    content:url('lave2.gif');
+    background:white;
+    width:20%;
+    /* color:#4DD6A2; */
+    
+}
+
+/* Media Queries
+=========================== */
+@media (max-width: 720px) {
+    .product {
+        width: 100%;
+    }
+}
+
+@media (max-width: 420px) {
+    /* Hide text in the cart link to save room */
+    .cart-text > span {
+        display: none;
+    }
+}
+
+/* Keyframe Animations
+=========================== */
+@keyframes rotate {
+    35% {
+        transform: translateZ(-100px) rotateX(-90deg);
+    }
+    72% {
+        transform: translateZ(-100px) rotateX(-90deg);
+    }
+    100% {
+        transform: translateZ(-100px);
+    }
+}
+
+@keyframes shake {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    10%, 30%, 50%, 70%, 90% {
+        transform: translateX(-5px);
+    }
+    20%, 40%, 60%, 80% {
+        transform: translateX(5px);
+    }
+}

@@ -1,0 +1,84 @@
+<head>
+	<%= stylesheet_link_tag "result", media: "all", "data-turbolinks-track" => "true" %>
+</head>
+
+<section class="result">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="title">
+					<h2>Pressing N°'X'</h2>
+					<h3>Voici les pressings les moins chers à proximité de votre position</h3>
+				</div>
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="row">
+							<article class="col-lg-7">
+								<div class="row">
+									<div class="col-lg-12">
+									<% @pressing_sorted.each_with_index do |pressing, index| %>
+										<div class="row align-items-center result">
+											<div class="col-lg-8 alignement-gauche">
+												<p class="nom_pressing"><%= pressing[1] %></p>
+												<p class="adresse_pressing"><%= pressing[2] %></p>
+												<p class="distance_pressing">Distance : 0,58km du centre-ville</p>	
+											</div>
+											<div class="col-lg-2">
+												<p class="price_pressing"><%= @basket_price[index]%> €</p>
+											</div>
+											<div class="col-lg-2">
+												<button type="button" class="btn btn-info button_contact">Contacter <br>le pressing</button>
+											</div>
+										</div>
+										<% end %>
+									</div>							
+								</div>
+							</article>
+							<!--<div class="col-sm-1 blank"></div>-->
+							<div class="col-sm-5 gmap">
+								<div class="row">
+									<aside class="col-sm-12">
+										<div id="map"></div>
+										<script>
+											function initMap() {
+										
+												var Lyon = {lat: 45.76577, lng: 4.831929};
+												var Lyon2 = {lat: 45.769723, lng: 4.842609};
+
+
+												var map = new google.maps.Map(document.getElementById('map'), {
+													zoom: 12,
+													center: Lyon,
+													center: Lyon2,
+												});
+
+												var marker = new google.maps.Marker({
+													map: map,
+													draggable: true,
+													animation: google.maps.Animation.DROP,
+													position: Lyon, 
+													position: Lyon2,
+												});
+												marker.addListener('click', toggleBounce);
+											}
+											function toggleBounce() {
+												if (marker.getAnimation() !== null) {
+													marker.setAnimation(null);
+												} else {
+													marker.setAnimation(google.maps.Animation.BOUNCE);
+												}
+											}
+										</script>
+									</aside>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDdPAOLKPNZJKEKAU4nuUZv8zPwkuprXnQ&callback=initMap">
+</script>

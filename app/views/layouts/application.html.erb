@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SoPressingFront</title>
+	<%= csrf_meta_tags %>
+
+	<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+	<%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+	<!--  Font by googlefont  --> 
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+
+	<!--  Icon by fontawesome  --> 
+	<script src="https://use.fontawesome.com/8391eaeae5.js"></script>
+
+
+	<!--  Icon by fontawesome - FOOTER  --> 	
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+	<%= render 'layouts/navbar' %>
+	<%= yield %>
+	<%= render 'layouts/footer' %>
+</body>
+</html>

@@ -1,0 +1,71 @@
+
+*{
+	font-family: 'Rubik', sans-serif;
+}
+
+/*
+[class*="col-"], footer {
+	background-color: lightgreen;
+	border: 2px solid black;
+	border-radius: 6px;
+	line-height: 40px;
+	text-align: center;
+}
+*/
+
+
+
+
+.button_contact{
+	cursor: pointer;
+	color:white;
+	border:none;
+	background-color: #3E8161;
+}
+
+.button_contact:hover{
+	background-color: #539575;
+}
+
+
+section .title {
+	padding-bottom: 1%;
+	color: #3E8161;
+	/*background-color: #3E8161;*/
+	border: #3E8161;
+	/* padding:3%; */
+}
+
+.result{
+	padding:1.5%;
+	border-top: 1px solid lightgrey;
+}
+
+.gmap{
+	border-left: 1px dotted lightgrey;
+}
+
+.nom_pressing, .price_pressing,{
+	font-size: 1.3em;
+	margin: auto;
+}
+
+.button_contact{
+	margin: auto;
+	font-size: 1.1em;
+}
+
+.adresse_pressing, .distance_pressing{
+	font-size: 1em;
+	margin: auto;
+}
+
+#map {
+	height: 900px;
+	width: 100%;
+}
+
+.alignement-gauche
+{
+	text-align: left;
+}
