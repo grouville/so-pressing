@@ -8,7 +8,7 @@
 
 params =  { Pressing:	{
 		name: 'BLA',
-		address: '321 rue de la fin',
+		address: '2 place Bellecour',
 		phone: '0608473674',
 		items_attributes: [
 			{	:product_type => 'test',
@@ -108,7 +108,7 @@ Pressing.create(params[:Pressing])
 
 params =  { Pressing:	{
 		name: 'BLOU',
-		address: '321 rue de la fin',
+		address: '2 place Bellecour 69002 Lyon',
 		phone: '0608473674',
 		items_attributes: [
 			{	:product_type => 'test',
@@ -209,7 +209,7 @@ Pressing.create(params[:Pressing])
 
 params =  { Pressing:	{
 		name: 'BLI',
-		address: '321 rue de la fin',
+		address: '2 place Bellecour 69002 Lyon',
 		phone: '0608473674',
 		items_attributes: [
 			{	:product_type => 'test',
@@ -310,7 +310,7 @@ Pressing.create(params[:Pressing])
 
 params =  { Pressing:	{
 		name: 'BLU',
-		address: '321 rue de la fin',
+		address: '2 place Bellecour 69002 Lyon',
 		phone: '0608473674',
 		items_attributes: [
 			{	:product_type => 'test',
@@ -411,7 +411,7 @@ Pressing.create(params[:Pressing])
 
 params =  { Pressing:	{
 		name: 'BOP',
-		address: '321 rue de la fin',
+		address: '2 place Bellecour 69002 Lyon',
 		phone: '0608473674',
 		items_attributes: [
 			{	:product_type => 'test',
@@ -512,7 +512,7 @@ Pressing.create(params[:Pressing])
 
 params =  { Pressing:	{
 		name: 'FOU',
-		address: '321 rue de la fin',
+		address: '2 place Bellecour 69002 Lyon',
 		phone: '0608473674',
 		items_attributes: [
 			{	:product_type => 'test',
@@ -613,7 +613,7 @@ Pressing.create(params[:Pressing])
 
 params =  { Pressing:	{
 		name: 'RET',
-		address: '321 rue de la fin',
+		address: '2 place Bellecour 69002 Lyon',
 		phone: '0608473674',
 		items_attributes: [
 			{	:product_type => 'test',
@@ -714,7 +714,7 @@ Pressing.create(params[:Pressing])
 
 params =  { Pressing:	{
 		name: 'ZER',
-		address: '321 rue de la fin',
+		address: '2 place Bellecour 69002 Lyon',
 		phone: '0608473674',
 		items_attributes: [
 			{	:product_type => 'test',
@@ -815,7 +815,7 @@ Pressing.create(params[:Pressing])
 
 params =  { Pressing:	{
 		name: 'LOUP',
-		address: '321 rue de la fin',
+		address: '2 place Bellecour 69002 Lyon',
 		phone: '0608473674',
 		items_attributes: [
 			{	:product_type => 'test',
@@ -916,7 +916,7 @@ Pressing.create(params[:Pressing])
 
 params =  { Pressing:	{
 		name: 'MUN',
-		address: '321 rue de la fin',
+		address: '2 place Bellecour 69002 Lyon',
 		phone: '0608473674',
 		items_attributes: [
 			{	:product_type => 'test',
@@ -1017,7 +1017,7 @@ Pressing.create(params[:Pressing])
 
 params =  { Pressing:	{
 		name: 'XYR',
-		address: '321 rue de la fin',
+		address: '2 place Bellecour 69002 Lyon',
 		phone: '0608473674',
 		items_attributes: [
 			{	:product_type => 'test',
@@ -1118,7 +1118,7 @@ Pressing.create(params[:Pressing])
 
 params =  { Pressing:	{
 		name: 'ZSR',
-		address: '321 rue de la fin',
+		address: '2 place Bellecour 69002 Lyon',
 		phone: '0608473674',
 		items_attributes: [
 			{	:product_type => 'test',
@@ -1219,7 +1219,7 @@ Pressing.create(params[:Pressing])
 
 params =  { Pressing:	{
 		name: 'WIR',
-		address: '321 rue de la fin',
+		address: '2 place Bellecour 69002 Lyon',
 		phone: '0608473674',
 		items_attributes: [
 			{	:product_type => 'test',
@@ -1320,7 +1320,7 @@ Pressing.create(params[:Pressing])
 
 params =  { Pressing:	{
 		name: 'AUR',
-		address: '321 rue de la fin',
+		address: '2 place Bellecour 69002 Lyon',
 		phone: '0608473674',
 		items_attributes: [
 			{	:product_type => 'test',
@@ -1421,7 +1421,7 @@ Pressing.create(params[:Pressing])
 
 params =  { Pressing:	{
 		name: 'OUI',
-		address: '321 rue de la fin',
+		address: '2 place Bellecour 69002 Lyon',
 		phone: '0608473674',
 		items_attributes: [
 			{	:product_type => 'test',
@@ -1522,7 +1522,7 @@ Pressing.create(params[:Pressing])
 
 params =  { Pressing:	{
 		name: 'SKV',
-		address: '321 rue de la fin',
+		address: '2 place Bellecour 69002 Lyon',
 		phone: '0608473674',
 		items_attributes: [
 			{	:product_type => 'test',
@@ -1623,7 +1623,7 @@ Pressing.create(params[:Pressing])
 
 params =  { Pressing:	{
 		name: 'ZDN',
-		address: '321 rue de la fin',
+		address: '2 place Bellecour 69002 Lyon',
 		phone: '0608473674',
 		items_attributes: [
 			{	:product_type => 'test',
@@ -1724,7 +1724,7 @@ Pressing.create(params[:Pressing])
 
 params =  { Pressing:	{
 		name: 'WIE',
-		address: '321 rue de la fin',
+		address: '2 place Bellecour 69002 Lyon',
 		phone: '0608473674',
 		items_attributes: [
 			{	:product_type => 'test',
@@ -1825,7 +1825,7 @@ Pressing.create(params[:Pressing])
 
 params =  { Pressing:	{
 		name: 'ZLK',
-		address: '321 rue de la fin',
+		address: '2 place Bellecour 69002 Lyon',
 		phone: '0608473674',
 		items_attributes: [
 			{	:product_type => 'test',
@@ -1926,7 +1926,7 @@ Pressing.create(params[:Pressing])
 
 params =  { Pressing:	{
 		name: 'JIJ',
-		address: '321 rue de la fin',
+		address: '2 place Bellecour 69002 Lyon',
 		phone: '0608473674',
 		items_attributes: [
 			{	:product_type => 'test',
@@ -2027,7 +2027,7 @@ Pressing.create(params[:Pressing])
 
 params =  { Pressing:	{
 		name: 'SEZ',
-		address: '321 rue de la fin',
+		address: '2 place Bellecour 69002 Lyon',
 		phone: '0608473674',
 		items_attributes: [
 			{	:product_type => 'test',
@@ -2128,7 +2128,7 @@ Pressing.create(params[:Pressing])
 
 params =  { Pressing:	{
 		name: 'QUZ',
-		address: '321 rue de la fin',
+		address: '2 place Bellecour 69002 Lyon',
 		phone: '0608473674',
 		items_attributes: [
 			{	:product_type => 'test',
@@ -2229,7 +2229,7 @@ Pressing.create(params[:Pressing])
 
 params =  { Pressing:	{
 		name: 'LJH',
-		address: '321 rue de la fin',
+		address: '2 place Bellecour 69002 Lyon',
 		phone: '0608473674',
 		items_attributes: [
 			{	:product_type => 'test',
@@ -2330,7 +2330,7 @@ Pressing.create(params[:Pressing])
 
 params =  { Pressing:	{
 		name: 'HUR',
-		address: '321 rue de la fin',
+		address: '2 place Bellecour 69002 Lyon',
 		phone: '0608473674',
 		items_attributes: [
 			{	:product_type => 'test',
@@ -2431,7 +2431,7 @@ Pressing.create(params[:Pressing])
 
 params =  { Pressing:	{
 		name: 'ZYE',
-		address: '321 rue de la fin',
+		address: '2 place Bellecour 69002 Lyon',
 		phone: '0608473674',
 		items_attributes: [
 			{	:product_type => 'test',

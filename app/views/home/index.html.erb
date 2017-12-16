@@ -1,4 +1,5 @@
 <body>
+<%= @locations %>
 	<section class="jolie" id="ancre2">
 		<div class="jumbotron">
 			<div class="jumbotron-center">
@@ -8,11 +9,16 @@
 						<p class="lead">Une tenue toujours parfaite !</p>
 						<div class="input-group">
 							<!--<span class="input-group-addon"><i class="fa fa-map-marker fa-lg" aria-hidden="true"></i></span>--> 
-							<input class="form-control" type="text"  placeholder="Entrez votre adresse...">
+							<%= form_tag home_index_path, :method => :get do %>
+						
+							<div class="form-control">
+							<%= text_field_tag :search, params[:search] %>
+							</div>
 							<span class="input-group-btn">
-								<button class="btn btn-success" type="button" href="/select/index"><i class="fa fa-map-marker fa-lg" aria-hidden="true"></i> Localisez-moi !</button>
+								<div class="btn btn-success" type="button" ><i class="fa fa-map-marker fa-lg" aria-hidden="true"></i><%=submit_tag "Localisez moi !", class:"btn btn-success" %></div>
 							</span>
 						</div>
+						<%end%>
 					</div>
 				</div>
 			</div>
