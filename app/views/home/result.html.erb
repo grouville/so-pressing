@@ -20,7 +20,7 @@
 											<div class="col-lg-8 alignement-gauche">
 												<p class="nom_pressing"><%= pressing[1] %></p>
 												<p class="adresse_pressing"><%= pressing[2] %></p>
-												<p class="distance_pressing">Distance : <%= Geocoder::Calculations.distance_between(@distance, [pressing[4],pressing[5]], :units => :km)%>km du centre-ville</p>	
+												<p class="distance_pressing">Distance : <%= Geocoder::Calculations.distance_between(@distance, [pressing[4],pressing[5]], :units => :km).round(2)%>km du centre-ville</p>	
 											</div>
 											<div class="col-lg-2">
 												<p class="price_pressing"><%= @basket_price[index]%> €</p>
