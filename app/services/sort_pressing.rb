@@ -96,7 +96,7 @@ class SortPressing
 		val = []
 		while i < @number_of_pressings do
 			@id.each do |eachid|
-				val << i * 29 + eachid #48 is the amount of products we have in the catalog
+				val << i * 30 + eachid #48 is the amount of products we have in the catalog
 			end
 			i += 1
 		end

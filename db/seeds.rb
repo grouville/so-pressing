@@ -11,44 +11,47 @@ params =  { Pressing:	{
 		address: '321 rue de la fin',
 		phone: '0608473674',
 		items_attributes: [
+			{	:product_type => 'test',
+				:price => 0
+			},
 			{	:product_type => 'tshirt',
-				:price => 15
+				:price => 1
 			},
 			{	:product_type => 'polo',
-				:price => 15
+				:price => 2
 			},
 			{	:product_type => 'chemise',
-				:price => 15
+				:price => 3
 			},
 			{	:product_type => 'pull',
-				:price => 15
+				:price => 4
 			},
 			{	:product_type => 'gilet',
-				:price => 15
+				:price => 5
 			},
 			{	:product_type => 'pantalon',
-				:price => 15
+				:price => 6
 			},
 			{	:product_type => 'costume',
-				:price => 15
+				:price => 7
 			},
 			{	:product_type => 'chemisier',
-				:price => 15
+				:price => 8
 			},
 			{	:product_type => 'blouse',
-				:price => 15
+				:price => 9
 			},
 			{	:product_type => 'robe',
-				:price => 15
+				:price => 10
 			},
 			{	:product_type => 'pantalon',
-				:price => 15
+				:price => 11
 			},
 			{	:product_type => 'jupe',
-				:price => 15
+				:price => 12
 			},
 			{	:product_type => 'jupe_plissee',
-				:price => 15
+				:price => 13
 			},
 			{	:product_type => 'tailleur',
 				:price => 15
@@ -96,7 +99,7 @@ params =  { Pressing:	{
 				:price => 15
 			},
 			{	:product_type => 'casquette',
-				:price => 15
+				:price => 50
 			}
 		]
 	}
@@ -108,8 +111,11 @@ params =  { Pressing:	{
 		address: '321 rue de la fin',
 		phone: '0608473674',
 		items_attributes: [
+			{	:product_type => 'test',
+				:price => 0
+			},
 			{	:product_type => 'tshirt',
-				:price => 7
+				:price => 2
 			},
 			{	:product_type => 'polo',
 				:price => 7
@@ -193,7 +199,7 @@ params =  { Pressing:	{
 				:price => 7
 			},
 			{	:product_type => 'casquette',
-				:price => 7
+				:price => 51
 			}
 		]
 	}
@@ -206,8 +212,11 @@ params =  { Pressing:	{
 		address: '321 rue de la fin',
 		phone: '0608473674',
 		items_attributes: [
+			{	:product_type => 'test',
+				:price => 0
+			},
 			{	:product_type => 'tshirt',
-				:price => 9
+				:price => 3
 			},
 			{	:product_type => 'polo',
 				:price => 9
@@ -291,7 +300,7 @@ params =  { Pressing:	{
 				:price => 9
 			},
 			{	:product_type => 'casquette',
-				:price => 9
+				:price => 52
 			}
 		]
 	}
@@ -304,6 +313,9 @@ params =  { Pressing:	{
 		address: '321 rue de la fin',
 		phone: '0608473674',
 		items_attributes: [
+			{	:product_type => 'test',
+				:price => 0
+			},
 			{	:product_type => 'tshirt',
 				:price => 3
 			},
@@ -389,7 +401,7 @@ params =  { Pressing:	{
 				:price => 3
 			},
 			{	:product_type => 'casquette',
-				:price => 3
+				:price => 53
 			}
 		]
 	}
@@ -402,6 +414,9 @@ params =  { Pressing:	{
 		address: '321 rue de la fin',
 		phone: '0608473674',
 		items_attributes: [
+			{	:product_type => 'test',
+				:price => 0
+			},
 			{	:product_type => 'tshirt',
 				:price => 4
 			},
@@ -487,7 +502,7 @@ params =  { Pressing:	{
 				:price => 4
 			},
 			{	:product_type => 'casquette',
-				:price => 4
+				:price => 54
 			}
 		]
 	}
@@ -500,6 +515,9 @@ params =  { Pressing:	{
 		address: '321 rue de la fin',
 		phone: '0608473674',
 		items_attributes: [
+			{	:product_type => 'test',
+				:price => 0
+			},
 			{	:product_type => 'tshirt',
 				:price => 4
 			},
@@ -585,7 +603,7 @@ params =  { Pressing:	{
 				:price => 4
 			},
 			{	:product_type => 'casquette',
-				:price => 4
+				:price => 55
 			}
 		]
 	}
@@ -598,6 +616,9 @@ params =  { Pressing:	{
 		address: '321 rue de la fin',
 		phone: '0608473674',
 		items_attributes: [
+			{	:product_type => 'test',
+				:price => 0
+			},
 			{	:product_type => 'tshirt',
 				:price => 4
 			},
@@ -683,7 +704,7 @@ params =  { Pressing:	{
 				:price => 4
 			},
 			{	:product_type => 'casquette',
-				:price => 4
+				:price => 56
 			}
 		]
 	}
@@ -696,6 +717,9 @@ params =  { Pressing:	{
 		address: '321 rue de la fin',
 		phone: '0608473674',
 		items_attributes: [
+			{	:product_type => 'test',
+				:price => 0
+			},
 			{	:product_type => 'tshirt',
 				:price => 4
 			},
@@ -781,7 +805,7 @@ params =  { Pressing:	{
 				:price => 4
 			},
 			{	:product_type => 'casquette',
-				:price => 4
+				:price => 57
 			}
 		]
 	}
@@ -794,6 +818,9 @@ params =  { Pressing:	{
 		address: '321 rue de la fin',
 		phone: '0608473674',
 		items_attributes: [
+			{	:product_type => 'test',
+				:price => 0
+			},
 			{	:product_type => 'tshirt',
 				:price => 4
 			},
@@ -879,7 +906,7 @@ params =  { Pressing:	{
 				:price => 4
 			},
 			{	:product_type => 'casquette',
-				:price => 4
+				:price => 58
 			}
 		]
 	}
@@ -892,6 +919,9 @@ params =  { Pressing:	{
 		address: '321 rue de la fin',
 		phone: '0608473674',
 		items_attributes: [
+			{	:product_type => 'test',
+				:price => 0
+			},
 			{	:product_type => 'tshirt',
 				:price => 4
 			},
@@ -977,7 +1007,7 @@ params =  { Pressing:	{
 				:price => 4
 			},
 			{	:product_type => 'casquette',
-				:price => 4
+				:price => 59
 			}
 		]
 	}
@@ -990,6 +1020,9 @@ params =  { Pressing:	{
 		address: '321 rue de la fin',
 		phone: '0608473674',
 		items_attributes: [
+			{	:product_type => 'test',
+				:price => 0
+			},
 			{	:product_type => 'tshirt',
 				:price => 4
 			},
@@ -1075,7 +1108,7 @@ params =  { Pressing:	{
 				:price => 4
 			},
 			{	:product_type => 'casquette',
-				:price => 4
+				:price => 60
 			}
 		]
 	}
@@ -1088,6 +1121,9 @@ params =  { Pressing:	{
 		address: '321 rue de la fin',
 		phone: '0608473674',
 		items_attributes: [
+			{	:product_type => 'test',
+				:price => 0
+			},
 			{	:product_type => 'tshirt',
 				:price => 4
 			},
@@ -1173,7 +1209,7 @@ params =  { Pressing:	{
 				:price => 4
 			},
 			{	:product_type => 'casquette',
-				:price => 4
+				:price => 61
 			}
 		]
 	}
@@ -1186,6 +1222,9 @@ params =  { Pressing:	{
 		address: '321 rue de la fin',
 		phone: '0608473674',
 		items_attributes: [
+			{	:product_type => 'test',
+				:price => 0
+			},
 			{	:product_type => 'tshirt',
 				:price => 4
 			},
@@ -1271,7 +1310,7 @@ params =  { Pressing:	{
 				:price => 4
 			},
 			{	:product_type => 'casquette',
-				:price => 4
+				:price => 62
 			}
 		]
 	}
@@ -1284,6 +1323,9 @@ params =  { Pressing:	{
 		address: '321 rue de la fin',
 		phone: '0608473674',
 		items_attributes: [
+			{	:product_type => 'test',
+				:price => 0
+			},
 			{	:product_type => 'tshirt',
 				:price => 4
 			},
@@ -1369,7 +1411,7 @@ params =  { Pressing:	{
 				:price => 4
 			},
 			{	:product_type => 'casquette',
-				:price => 4
+				:price => 63
 			}
 		]
 	}
@@ -1382,6 +1424,9 @@ params =  { Pressing:	{
 		address: '321 rue de la fin',
 		phone: '0608473674',
 		items_attributes: [
+			{	:product_type => 'test',
+				:price => 0
+			},
 			{	:product_type => 'tshirt',
 				:price => 4
 			},
@@ -1467,7 +1512,7 @@ params =  { Pressing:	{
 				:price => 4
 			},
 			{	:product_type => 'casquette',
-				:price => 4
+				:price => 64
 			}
 		]
 	}
@@ -1480,6 +1525,9 @@ params =  { Pressing:	{
 		address: '321 rue de la fin',
 		phone: '0608473674',
 		items_attributes: [
+			{	:product_type => 'test',
+				:price => 0
+			},
 			{	:product_type => 'tshirt',
 				:price => 4
 			},
@@ -1565,7 +1613,7 @@ params =  { Pressing:	{
 				:price => 4
 			},
 			{	:product_type => 'casquette',
-				:price => 4
+				:price => 65
 			}
 		]
 	}
@@ -1578,6 +1626,9 @@ params =  { Pressing:	{
 		address: '321 rue de la fin',
 		phone: '0608473674',
 		items_attributes: [
+			{	:product_type => 'test',
+				:price => 0
+			},
 			{	:product_type => 'tshirt',
 				:price => 4
 			},
@@ -1663,7 +1714,7 @@ params =  { Pressing:	{
 				:price => 4
 			},
 			{	:product_type => 'casquette',
-				:price => 4
+				:price => 66
 			}
 		]
 	}
@@ -1676,6 +1727,9 @@ params =  { Pressing:	{
 		address: '321 rue de la fin',
 		phone: '0608473674',
 		items_attributes: [
+			{	:product_type => 'test',
+				:price => 0
+			},
 			{	:product_type => 'tshirt',
 				:price => 4
 			},
@@ -1761,7 +1815,7 @@ params =  { Pressing:	{
 				:price => 4
 			},
 			{	:product_type => 'casquette',
-				:price => 4
+				:price => 67
 			}
 		]
 	}
@@ -1774,6 +1828,9 @@ params =  { Pressing:	{
 		address: '321 rue de la fin',
 		phone: '0608473674',
 		items_attributes: [
+			{	:product_type => 'test',
+				:price => 0
+			},
 			{	:product_type => 'tshirt',
 				:price => 4
 			},
@@ -1859,7 +1916,7 @@ params =  { Pressing:	{
 				:price => 4
 			},
 			{	:product_type => 'casquette',
-				:price => 4
+				:price => 68
 			}
 		]
 	}
@@ -1872,6 +1929,9 @@ params =  { Pressing:	{
 		address: '321 rue de la fin',
 		phone: '0608473674',
 		items_attributes: [
+			{	:product_type => 'test',
+				:price => 0
+			},
 			{	:product_type => 'tshirt',
 				:price => 4
 			},
@@ -1957,7 +2017,7 @@ params =  { Pressing:	{
 				:price => 4
 			},
 			{	:product_type => 'casquette',
-				:price => 4
+				:price => 69
 			}
 		]
 	}
@@ -1970,6 +2030,9 @@ params =  { Pressing:	{
 		address: '321 rue de la fin',
 		phone: '0608473674',
 		items_attributes: [
+			{	:product_type => 'test',
+				:price => 0
+			},
 			{	:product_type => 'tshirt',
 				:price => 4
 			},
@@ -2055,7 +2118,7 @@ params =  { Pressing:	{
 				:price => 4
 			},
 			{	:product_type => 'casquette',
-				:price => 4
+				:price => 70
 			}
 		]
 	}
@@ -2068,6 +2131,9 @@ params =  { Pressing:	{
 		address: '321 rue de la fin',
 		phone: '0608473674',
 		items_attributes: [
+			{	:product_type => 'test',
+				:price => 0
+			},
 			{	:product_type => 'tshirt',
 				:price => 4
 			},
@@ -2153,7 +2219,7 @@ params =  { Pressing:	{
 				:price => 4
 			},
 			{	:product_type => 'casquette',
-				:price => 4
+				:price => 71
 			}
 		]
 	}
@@ -2166,6 +2232,9 @@ params =  { Pressing:	{
 		address: '321 rue de la fin',
 		phone: '0608473674',
 		items_attributes: [
+			{	:product_type => 'test',
+				:price => 0
+			},
 			{	:product_type => 'tshirt',
 				:price => 4
 			},
@@ -2251,7 +2320,7 @@ params =  { Pressing:	{
 				:price => 4
 			},
 			{	:product_type => 'casquette',
-				:price => 4
+				:price => 72
 			}
 		]
 	}
@@ -2264,6 +2333,9 @@ params =  { Pressing:	{
 		address: '321 rue de la fin',
 		phone: '0608473674',
 		items_attributes: [
+			{	:product_type => 'test',
+				:price => 0
+			},
 			{	:product_type => 'tshirt',
 				:price => 4
 			},
@@ -2349,7 +2421,7 @@ params =  { Pressing:	{
 				:price => 4
 			},
 			{	:product_type => 'casquette',
-				:price => 4
+				:price => 73
 			}
 		]
 	}
@@ -2362,6 +2434,9 @@ params =  { Pressing:	{
 		address: '321 rue de la fin',
 		phone: '0608473674',
 		items_attributes: [
+			{	:product_type => 'test',
+				:price => 0
+			},
 			{	:product_type => 'tshirt',
 				:price => 4
 			},
@@ -2447,7 +2522,7 @@ params =  { Pressing:	{
 				:price => 4
 			},
 			{	:product_type => 'casquette',
-				:price => 4
+				:price => 74
 			}
 		]
 	}
