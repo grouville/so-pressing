@@ -26,6 +26,7 @@ class SortPressing
 	def find_my_pressings(basket_price)
 		a = []
 		b = []
+		c = []
 		i = 0
 		#sort the cheapest basket prices and show their indexes sorted
 		index_of_pressings_sorted = basket_price.map.with_index.sort.map(&:last)
@@ -38,8 +39,13 @@ class SortPressing
 			i += 1
 		end
 
+		b.each do |pressing_for_java|
+			c << [pressing_for_java[1], pressing_for_java[4], pressing_for_java[5]]
+		end
+
 		a << price_of_baskets_sorted
 		a << b
+		a << c
 
 		return a
 	end

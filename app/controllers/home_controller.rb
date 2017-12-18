@@ -20,11 +20,14 @@ class HomeController < ApplicationController
 
 	def result
 		@distance = @@search
-  	@items = Item.pluck(:id, :price, :pressing_id)
-  	result = SortPressing.new(@@popo, @items, @@locations).perform
-  	@basket_price = result[0]
-  	@pressing_sorted = result[1]
-  end
+		@items = Item.pluck(:id, :price, :pressing_id)
+		result = SortPressing.new(@@popo, @items, @@locations).perform
+		@basket_price = result[0]
+		@pressing_sorted = result[1]
+
+		@markers = result[2]
+		
+	end
 
 end
 
