@@ -27,7 +27,7 @@
 												<p class="price_pressing"><%= @basket_price[index]%> €</p>
 											</div>
 											<div class="col-lg-2">
-												<button type="button" class="btn btn-info button_contact">Contacter <br>le pressing</button>
+												<button type="button" onclick="myClick(<%=index%>);" class="btn btn-info button_contact">Contacter <br>le pressing</button>
 											</div>
 										</div>
 										<% end %>
@@ -41,14 +41,16 @@
 										<body
 										onload="initialize()">
 										<div id="map"></div>
-										</body>
-										<script>
-											function initMap() {
-												var map;
-												var bounds = new google.maps.LatLngBounds();
-												var mapOptions = {
-													mapTypeId: 'roadmap'
-												};
+									</body>
+									<script>
+										var markers_for_click = new Array();
+
+										function initMap() {
+											var map;
+											var bounds = new google.maps.LatLngBounds();
+											var mapOptions = {
+												mapTypeId: 'roadmap'
+											};
 
 										    // Display a map on the web page
 										    map = new google.maps.Map(document.getElementById("map"), mapOptions);
@@ -95,7 +97,11 @@
 
 										        // Center the map to fit all markers on the screen
 										        map.fitBounds(bounds);
-										    }
+
+										          // Add marker to markers array
+										          markers_for_click.push(marker);
+
+										      }
 
 										    // Set zoom level
 										    var boundsListener = google.maps.event.addListener((map), 'bounds_changed', function(event) {
@@ -106,8 +112,14 @@
 										}
 										// Load initialize function
 										google.maps.event.addDomListener(window, 'load', initMap);
-									</script>
-								</aside>
+
+										 // The function to trigger the marker click, 'id' is the reference index to the 'markers' array.
+										 function myClick(id){
+										 	google.maps.event.trigger(markers_for_click[id], 'click');
+										 }
+										</script>
+									</aside>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -115,7 +127,6 @@
 			</div>
 		</div>
 	</div>
-</div>
 </section>
 <script async defer
 src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDdPAOLKPNZJKEKAU4nuUZv8zPwkuprXnQ&callback=initMap">
