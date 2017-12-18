@@ -1,9 +1,7 @@
 <head>
 	<%= stylesheet_link_tag "result", media: "all", "data-turbolinks-track" => "true" %>
 </head>
-<%= @markers %><br>
-<%= @pressing_sorted %><br><br>
-<%= @distance %>
+
 <section class="result">
 	<div class="container-fluid">
 		<div class="row">
@@ -62,6 +60,9 @@
 										    markers.push(['<%= for_marker[1] %>', <%= for_marker[4] %>, <%= for_marker[5] %>]);
 										    <% end %>
 
+										      console.log('markers:', markers);
+
+
 										    // Info window content
 										    var infoWindowContent = [];
 
@@ -70,6 +71,9 @@
 										    	'<h3><%= pressing[1] %></h3>' +
 										    	'<p><%= pressing[3] %></p>' + '</div>']);
 										    <% end %>
+
+										      console.log('infoWindow:', infoWindowContent);
+
 
 										    // Add multiple markers to map
 										    var infoWindow = new google.maps.InfoWindow(), marker, i;

@@ -39,13 +39,8 @@ class SortPressing
 			i += 1
 		end
 
-		b.each do |pressing_for_java|
-			c << [pressing_for_java[1], pressing_for_java[4], pressing_for_java[5]]
-		end
-
 		a << price_of_baskets_sorted
 		a << b
-		a << c
 
 		return a
 	end

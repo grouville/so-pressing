@@ -7,8 +7,8 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 params =  { Pressing:	{
-		name: 'BLA',
-		address: '2 place Bellecour',
+		name: 'Le Pressing de Lyon',
+		address: '6 rue du platre 69001 Lyon',
 		phone: '0608473674',
 		items_attributes: [
 			{	:product_type => 'test',
@@ -107,8 +107,8 @@ params =  { Pressing:	{
 Pressing.create(params[:Pressing])
 
 params =  { Pressing:	{
-		name: 'BLOU',
-		address: '2 place Bellecour 69002 Lyon',
+		name: 'Clean Cart',
+		address: '12 place Gabriel Rambaud 69001 Lyon',
 		phone: '0608473674',
 		items_attributes: [
 			{	:product_type => 'test',
@@ -208,8 +208,8 @@ Pressing.create(params[:Pressing])
 
 
 params =  { Pressing:	{
-		name: 'BLI',
-		address: '2 place Bellecour 69002 Lyon',
+		name: 'Express Pressing',
+		address: '21 rue Mercière 69002 Lyon',
 		phone: '0608473674',
 		items_attributes: [
 			{	:product_type => 'test',
@@ -309,8 +309,8 @@ params =  { Pressing:	{
 Pressing.create(params[:Pressing])
 
 params =  { Pressing:	{
-		name: 'BLU',
-		address: '2 place Bellecour 69002 Lyon',
+		name: 'Confluence Pressing',
+		address: '112 cours Charlemagne 69002 Lyon',
 		phone: '0608473674',
 		items_attributes: [
 			{	:product_type => 'test',
@@ -410,8 +410,8 @@ params =  { Pressing:	{
 Pressing.create(params[:Pressing])
 
 params =  { Pressing:	{
-		name: 'BOP',
-		address: '2 place Bellecour 69002 Lyon',
+		name: 'Le Pressing Du Cours',
+		address: '42 cours Charlemagne 69002 Lyon',
 		phone: '0608473674',
 		items_attributes: [
 			{	:product_type => 'test',
@@ -511,8 +511,8 @@ params =  { Pressing:	{
 Pressing.create(params[:Pressing])
 
 params =  { Pressing:	{
-		name: 'FOU',
-		address: '2 place Bellecour 69002 Lyon',
+		name: 'Cap Net',
+		address: '24 rue Ferrandière 69002 Lyon',
 		phone: '0608473674',
 		items_attributes: [
 			{	:product_type => 'test',
@@ -612,8 +612,8 @@ params =  { Pressing:	{
 Pressing.create(params[:Pressing])
 
 params =  { Pressing:	{
-		name: 'RET',
-		address: '2 place Bellecour 69002 Lyon',
+		name: 'Pressing Clairnet',
+		address: '21 rue Sainte Hélène 69002 Lyon',
 		phone: '0608473674',
 		items_attributes: [
 			{	:product_type => 'test',
@@ -713,8 +713,8 @@ params =  { Pressing:	{
 Pressing.create(params[:Pressing])
 
 params =  { Pressing:	{
-		name: 'ZER',
-		address: '2 place Bellecour 69002 Lyon',
+		name: 'D\.A\.L\.',
+		address: '2 place Carnot 69002 Lyon',
 		phone: '0608473674',
 		items_attributes: [
 			{	:product_type => 'test',
@@ -814,8 +814,8 @@ params =  { Pressing:	{
 Pressing.create(params[:Pressing])
 
 params =  { Pressing:	{
-		name: 'LOUP',
-		address: '2 place Bellecour 69002 Lyon',
+		name: 'Pressing Vendôme',
+		address: '159 rue Vendôme 69003 Lyon',
 		phone: '0608473674',
 		items_attributes: [
 			{	:product_type => 'test',
@@ -915,8 +915,8 @@ params =  { Pressing:	{
 Pressing.create(params[:Pressing])
 
 params =  { Pressing:	{
-		name: 'MUN',
-		address: '2 place Bellecour 69002 Lyon',
+		name: 'Lavorama',
+		address: '247 rue Paul Bert 69003 Lyon',
 		phone: '0608473674',
 		items_attributes: [
 			{	:product_type => 'test',
@@ -1016,8 +1016,8 @@ params =  { Pressing:	{
 Pressing.create(params[:Pressing])
 
 params =  { Pressing:	{
-		name: 'XYR',
-		address: '2 place Bellecour 69002 Lyon',
+		name: 'Aqualogia',
+		address: '70 rue Trarieux 69003 Lyon',
 		phone: '0608473674',
 		items_attributes: [
 			{	:product_type => 'test',
@@ -1117,8 +1117,8 @@ params =  { Pressing:	{
 Pressing.create(params[:Pressing])
 
 params =  { Pressing:	{
-		name: 'ZSR',
-		address: '2 place Bellecour 69002 Lyon',
+		name: 'Lidaxe',
+		address: '161 cours Albert Thomas 69003 Lyon',
 		phone: '0608473674',
 		items_attributes: [
 			{	:product_type => 'test',
@@ -1218,8 +1218,8 @@ params =  { Pressing:	{
 Pressing.create(params[:Pressing])
 
 params =  { Pressing:	{
-		name: 'WIR',
-		address: '2 place Bellecour 69002 Lyon',
+		name: 'Sequoia Pressing',
+		address: '24 rue Part Dieu 69003 Lyon',
 		phone: '0608473674',
 		items_attributes: [
 			{	:product_type => 'test',
@@ -1319,8 +1319,8 @@ params =  { Pressing:	{
 Pressing.create(params[:Pressing])
 
 params =  { Pressing:	{
-		name: 'AUR',
-		address: '2 place Bellecour 69002 Lyon',
+		name: 'Elle Repasse et C Pret',
+		address: '20 bis cours Richard Vitton 69003 Lyon',
 		phone: '0608473674',
 		items_attributes: [
 			{	:product_type => 'test',
@@ -1420,8 +1420,8 @@ params =  { Pressing:	{
 Pressing.create(params[:Pressing])
 
 params =  { Pressing:	{
-		name: 'OUI',
-		address: '2 place Bellecour 69002 Lyon',
+		name: 'OXY Net',
+		address: '230 rue Vendôme 69003 Lyon',
 		phone: '0608473674',
 		items_attributes: [
 			{	:product_type => 'test',
@@ -1521,8 +1521,8 @@ params =  { Pressing:	{
 Pressing.create(params[:Pressing])
 
 params =  { Pressing:	{
-		name: 'SKV',
-		address: '2 place Bellecour 69002 Lyon',
+		name: 'Lyon Repassage',
+		address: '48 rue Turbil 69003 Lyon',
 		phone: '0608473674',
 		items_attributes: [
 			{	:product_type => 'test',
@@ -1622,8 +1622,8 @@ params =  { Pressing:	{
 Pressing.create(params[:Pressing])
 
 params =  { Pressing:	{
-		name: 'ZDN',
-		address: '2 place Bellecour 69002 Lyon',
+		name: 'Pressing Plus',
+		address: '138 cours Lafayette 69003 Lyon',
 		phone: '0608473674',
 		items_attributes: [
 			{	:product_type => 'test',
@@ -1723,8 +1723,8 @@ params =  { Pressing:	{
 Pressing.create(params[:Pressing])
 
 params =  { Pressing:	{
-		name: 'WIE',
-		address: '2 place Bellecour 69002 Lyon',
+		name: 'Pressing Félix Faure',
+		address: '46 avenue Félix Faure 69003 Lyon',
 		phone: '0608473674',
 		items_attributes: [
 			{	:product_type => 'test',
@@ -1824,8 +1824,8 @@ params =  { Pressing:	{
 Pressing.create(params[:Pressing])
 
 params =  { Pressing:	{
-		name: 'ZLK',
-		address: '2 place Bellecour 69002 Lyon',
+		name: 'Pressing Des Lys',
+		address: '239 avenue Félix Faure 69003 Lyon',
 		phone: '0608473674',
 		items_attributes: [
 			{	:product_type => 'test',
@@ -1925,8 +1925,8 @@ params =  { Pressing:	{
 Pressing.create(params[:Pressing])
 
 params =  { Pressing:	{
-		name: 'JIJ',
-		address: '2 place Bellecour 69002 Lyon',
+		name: 'Pressing de l\'Est',
+		address: '267 rue Vendôme 69003 Lyon',
 		phone: '0608473674',
 		items_attributes: [
 			{	:product_type => 'test',
@@ -2026,8 +2026,8 @@ params =  { Pressing:	{
 Pressing.create(params[:Pressing])
 
 params =  { Pressing:	{
-		name: 'SEZ',
-		address: '2 place Bellecour 69002 Lyon',
+		name: 'Pressing Vitton',
+		address: '46 cours Richard Vitton 69003 Lyon',
 		phone: '0608473674',
 		items_attributes: [
 			{	:product_type => 'test',
@@ -2127,8 +2127,8 @@ params =  { Pressing:	{
 Pressing.create(params[:Pressing])
 
 params =  { Pressing:	{
-		name: 'QUZ',
-		address: '2 place Bellecour 69002 Lyon',
+		name: 'Pressing Le Privilege',
+		address: '18 places Croix Rousse 69004 Lyon',
 		phone: '0608473674',
 		items_attributes: [
 			{	:product_type => 'test',
@@ -2228,8 +2228,8 @@ params =  { Pressing:	{
 Pressing.create(params[:Pressing])
 
 params =  { Pressing:	{
-		name: 'LJH',
-		address: '2 place Bellecour 69002 Lyon',
+		name: 'Sequoia Pressing Croix-Rousse',
+		address: '29 grande rue de la Croix Rousse 69004 Lyon',
 		phone: '0608473674',
 		items_attributes: [
 			{	:product_type => 'test',
@@ -2329,8 +2329,8 @@ params =  { Pressing:	{
 Pressing.create(params[:Pressing])
 
 params =  { Pressing:	{
-		name: 'HUR',
-		address: '2 place Bellecour 69002 Lyon',
+		name: 'Laverie Du Clos Jouve',
+		address: '10 rue Roussy 69004 Lyon',
 		phone: '0608473674',
 		items_attributes: [
 			{	:product_type => 'test',
@@ -2430,8 +2430,2533 @@ params =  { Pressing:	{
 Pressing.create(params[:Pressing])
 
 params =  { Pressing:	{
-		name: 'ZYE',
-		address: '2 place Bellecour 69002 Lyon',
+		name: 'Nickel Pressing',
+		address: '55 rue Hénon 69004 Lyon',
+		phone: '0608473674',
+		items_attributes: [
+			{	:product_type => 'test',
+				:price => 0
+			},
+			{	:product_type => 'tshirt',
+				:price => 4
+			},
+			{	:product_type => 'polo',
+				:price => 4
+			},
+			{	:product_type => 'chemise',
+				:price => 4
+			},
+			{	:product_type => 'pull',
+				:price => 4
+			},
+			{	:product_type => 'gilet',
+				:price => 4
+			},
+			{	:product_type => 'pantalon',
+				:price => 4
+			},
+			{	:product_type => 'costume',
+				:price => 4
+			},
+			{	:product_type => 'chemisier',
+				:price => 4
+			},
+			{	:product_type => 'blouse',
+				:price => 4
+			},
+			{	:product_type => 'robe',
+				:price => 4
+			},
+			{	:product_type => 'pantalon',
+				:price => 4
+			},
+			{	:product_type => 'jupe',
+				:price => 4
+			},
+			{	:product_type => 'jupe_plissee',
+				:price => 4
+			},
+			{	:product_type => 'tailleur',
+				:price => 4
+			},
+			{	:product_type => 'blouson',
+				:price => 4
+			},
+			{	:product_type => 'doudoune',
+				:price => 4
+			},
+			{	:product_type => 'manteau',
+				:price => 4
+			},
+			{	:product_type => 'impermeable',
+				:price => 4
+			},
+			{	:product_type => 'trench',
+				:price => 4
+			},
+			{	:product_type => 'pantalon_cuir',
+				:price => 4
+			},
+				{	:product_type => 'blouson_cuir',
+				:price => 4
+			},
+			{	:product_type => 'veste_cuir',
+				:price => 4
+			},
+			{	:product_type => 'manteau_cuir',
+				:price => 4
+			},
+			{	:product_type => 'robe_cuir',
+				:price => 4
+			},
+			{	:product_type => 'jupe_cuir',
+				:price => 4
+			},
+			{	:product_type => 'carre_de_soie',
+				:price => 4
+			},
+			{	:product_type => 'chapeau',
+				:price => 4
+			},
+			{	:product_type => 'bonnet',
+				:price => 4
+			},
+			{	:product_type => 'casquette',
+				:price => 74
+			}
+		]
+	}
+}
+
+Pressing.create(params[:Pressing])
+
+params =  { Pressing:	{
+		name: 'Chez Nina et Marine',
+		address: '57 rue Chaziere 69004 Lyon',
+		phone: '0608473674',
+		items_attributes: [
+			{	:product_type => 'test',
+				:price => 0
+			},
+			{	:product_type => 'tshirt',
+				:price => 4
+			},
+			{	:product_type => 'polo',
+				:price => 4
+			},
+			{	:product_type => 'chemise',
+				:price => 4
+			},
+			{	:product_type => 'pull',
+				:price => 4
+			},
+			{	:product_type => 'gilet',
+				:price => 4
+			},
+			{	:product_type => 'pantalon',
+				:price => 4
+			},
+			{	:product_type => 'costume',
+				:price => 4
+			},
+			{	:product_type => 'chemisier',
+				:price => 4
+			},
+			{	:product_type => 'blouse',
+				:price => 4
+			},
+			{	:product_type => 'robe',
+				:price => 4
+			},
+			{	:product_type => 'pantalon',
+				:price => 4
+			},
+			{	:product_type => 'jupe',
+				:price => 4
+			},
+			{	:product_type => 'jupe_plissee',
+				:price => 4
+			},
+			{	:product_type => 'tailleur',
+				:price => 4
+			},
+			{	:product_type => 'blouson',
+				:price => 4
+			},
+			{	:product_type => 'doudoune',
+				:price => 4
+			},
+			{	:product_type => 'manteau',
+				:price => 4
+			},
+			{	:product_type => 'impermeable',
+				:price => 4
+			},
+			{	:product_type => 'trench',
+				:price => 4
+			},
+			{	:product_type => 'pantalon_cuir',
+				:price => 4
+			},
+				{	:product_type => 'blouson_cuir',
+				:price => 4
+			},
+			{	:product_type => 'veste_cuir',
+				:price => 4
+			},
+			{	:product_type => 'manteau_cuir',
+				:price => 4
+			},
+			{	:product_type => 'robe_cuir',
+				:price => 4
+			},
+			{	:product_type => 'jupe_cuir',
+				:price => 4
+			},
+			{	:product_type => 'carre_de_soie',
+				:price => 4
+			},
+			{	:product_type => 'chapeau',
+				:price => 4
+			},
+			{	:product_type => 'bonnet',
+				:price => 4
+			},
+			{	:product_type => 'casquette',
+				:price => 74
+			}
+		]
+	}
+}
+
+Pressing.create(params[:Pressing])
+
+params =  { Pressing:	{
+		name: 'Pressing Champvert',
+		address: '153 avenue Barthélémy Buyer 69005 Lyon',
+		phone: '0608473674',
+		items_attributes: [
+			{	:product_type => 'test',
+				:price => 0
+			},
+			{	:product_type => 'tshirt',
+				:price => 4
+			},
+			{	:product_type => 'polo',
+				:price => 4
+			},
+			{	:product_type => 'chemise',
+				:price => 4
+			},
+			{	:product_type => 'pull',
+				:price => 4
+			},
+			{	:product_type => 'gilet',
+				:price => 4
+			},
+			{	:product_type => 'pantalon',
+				:price => 4
+			},
+			{	:product_type => 'costume',
+				:price => 4
+			},
+			{	:product_type => 'chemisier',
+				:price => 4
+			},
+			{	:product_type => 'blouse',
+				:price => 4
+			},
+			{	:product_type => 'robe',
+				:price => 4
+			},
+			{	:product_type => 'pantalon',
+				:price => 4
+			},
+			{	:product_type => 'jupe',
+				:price => 4
+			},
+			{	:product_type => 'jupe_plissee',
+				:price => 4
+			},
+			{	:product_type => 'tailleur',
+				:price => 4
+			},
+			{	:product_type => 'blouson',
+				:price => 4
+			},
+			{	:product_type => 'doudoune',
+				:price => 4
+			},
+			{	:product_type => 'manteau',
+				:price => 4
+			},
+			{	:product_type => 'impermeable',
+				:price => 4
+			},
+			{	:product_type => 'trench',
+				:price => 4
+			},
+			{	:product_type => 'pantalon_cuir',
+				:price => 4
+			},
+				{	:product_type => 'blouson_cuir',
+				:price => 4
+			},
+			{	:product_type => 'veste_cuir',
+				:price => 4
+			},
+			{	:product_type => 'manteau_cuir',
+				:price => 4
+			},
+			{	:product_type => 'robe_cuir',
+				:price => 4
+			},
+			{	:product_type => 'jupe_cuir',
+				:price => 4
+			},
+			{	:product_type => 'carre_de_soie',
+				:price => 4
+			},
+			{	:product_type => 'chapeau',
+				:price => 4
+			},
+			{	:product_type => 'bonnet',
+				:price => 4
+			},
+			{	:product_type => 'casquette',
+				:price => 74
+			}
+		]
+	}
+}
+
+Pressing.create(params[:Pressing])
+
+params =  { Pressing:	{
+		name: 'Services Bossuet Pressing',
+		address: '107 rue Bossuet 69006 Lyon',
+		phone: '0608473674',
+		items_attributes: [
+			{	:product_type => 'test',
+				:price => 0
+			},
+			{	:product_type => 'tshirt',
+				:price => 4
+			},
+			{	:product_type => 'polo',
+				:price => 4
+			},
+			{	:product_type => 'chemise',
+				:price => 4
+			},
+			{	:product_type => 'pull',
+				:price => 4
+			},
+			{	:product_type => 'gilet',
+				:price => 4
+			},
+			{	:product_type => 'pantalon',
+				:price => 4
+			},
+			{	:product_type => 'costume',
+				:price => 4
+			},
+			{	:product_type => 'chemisier',
+				:price => 4
+			},
+			{	:product_type => 'blouse',
+				:price => 4
+			},
+			{	:product_type => 'robe',
+				:price => 4
+			},
+			{	:product_type => 'pantalon',
+				:price => 4
+			},
+			{	:product_type => 'jupe',
+				:price => 4
+			},
+			{	:product_type => 'jupe_plissee',
+				:price => 4
+			},
+			{	:product_type => 'tailleur',
+				:price => 4
+			},
+			{	:product_type => 'blouson',
+				:price => 4
+			},
+			{	:product_type => 'doudoune',
+				:price => 4
+			},
+			{	:product_type => 'manteau',
+				:price => 4
+			},
+			{	:product_type => 'impermeable',
+				:price => 4
+			},
+			{	:product_type => 'trench',
+				:price => 4
+			},
+			{	:product_type => 'pantalon_cuir',
+				:price => 4
+			},
+				{	:product_type => 'blouson_cuir',
+				:price => 4
+			},
+			{	:product_type => 'veste_cuir',
+				:price => 4
+			},
+			{	:product_type => 'manteau_cuir',
+				:price => 4
+			},
+			{	:product_type => 'robe_cuir',
+				:price => 4
+			},
+			{	:product_type => 'jupe_cuir',
+				:price => 4
+			},
+			{	:product_type => 'carre_de_soie',
+				:price => 4
+			},
+			{	:product_type => 'chapeau',
+				:price => 4
+			},
+			{	:product_type => 'bonnet',
+				:price => 4
+			},
+			{	:product_type => 'casquette',
+				:price => 74
+			}
+		]
+	}
+}
+
+Pressing.create(params[:Pressing])
+
+params =  { Pressing:	{
+		name: 'Sequoia Pressing 6ème',
+		address: '3 place Edgar Quinet 69006 Lyon',
+		phone: '0608473674',
+		items_attributes: [
+			{	:product_type => 'test',
+				:price => 0
+			},
+			{	:product_type => 'tshirt',
+				:price => 4
+			},
+			{	:product_type => 'polo',
+				:price => 4
+			},
+			{	:product_type => 'chemise',
+				:price => 4
+			},
+			{	:product_type => 'pull',
+				:price => 4
+			},
+			{	:product_type => 'gilet',
+				:price => 4
+			},
+			{	:product_type => 'pantalon',
+				:price => 4
+			},
+			{	:product_type => 'costume',
+				:price => 4
+			},
+			{	:product_type => 'chemisier',
+				:price => 4
+			},
+			{	:product_type => 'blouse',
+				:price => 4
+			},
+			{	:product_type => 'robe',
+				:price => 4
+			},
+			{	:product_type => 'pantalon',
+				:price => 4
+			},
+			{	:product_type => 'jupe',
+				:price => 4
+			},
+			{	:product_type => 'jupe_plissee',
+				:price => 4
+			},
+			{	:product_type => 'tailleur',
+				:price => 4
+			},
+			{	:product_type => 'blouson',
+				:price => 4
+			},
+			{	:product_type => 'doudoune',
+				:price => 4
+			},
+			{	:product_type => 'manteau',
+				:price => 4
+			},
+			{	:product_type => 'impermeable',
+				:price => 4
+			},
+			{	:product_type => 'trench',
+				:price => 4
+			},
+			{	:product_type => 'pantalon_cuir',
+				:price => 4
+			},
+				{	:product_type => 'blouson_cuir',
+				:price => 4
+			},
+			{	:product_type => 'veste_cuir',
+				:price => 4
+			},
+			{	:product_type => 'manteau_cuir',
+				:price => 4
+			},
+			{	:product_type => 'robe_cuir',
+				:price => 4
+			},
+			{	:product_type => 'jupe_cuir',
+				:price => 4
+			},
+			{	:product_type => 'carre_de_soie',
+				:price => 4
+			},
+			{	:product_type => 'chapeau',
+				:price => 4
+			},
+			{	:product_type => 'bonnet',
+				:price => 4
+			},
+			{	:product_type => 'casquette',
+				:price => 74
+			}
+		]
+	}
+}
+
+Pressing.create(params[:Pressing])
+
+params =  { Pressing:	{
+		name: 'Matagotte',
+		address: '12 cours Franklin Roosevelt 69006 Lyon',
+		phone: '0608473674',
+		items_attributes: [
+			{	:product_type => 'test',
+				:price => 0
+			},
+			{	:product_type => 'tshirt',
+				:price => 4
+			},
+			{	:product_type => 'polo',
+				:price => 4
+			},
+			{	:product_type => 'chemise',
+				:price => 4
+			},
+			{	:product_type => 'pull',
+				:price => 4
+			},
+			{	:product_type => 'gilet',
+				:price => 4
+			},
+			{	:product_type => 'pantalon',
+				:price => 4
+			},
+			{	:product_type => 'costume',
+				:price => 4
+			},
+			{	:product_type => 'chemisier',
+				:price => 4
+			},
+			{	:product_type => 'blouse',
+				:price => 4
+			},
+			{	:product_type => 'robe',
+				:price => 4
+			},
+			{	:product_type => 'pantalon',
+				:price => 4
+			},
+			{	:product_type => 'jupe',
+				:price => 4
+			},
+			{	:product_type => 'jupe_plissee',
+				:price => 4
+			},
+			{	:product_type => 'tailleur',
+				:price => 4
+			},
+			{	:product_type => 'blouson',
+				:price => 4
+			},
+			{	:product_type => 'doudoune',
+				:price => 4
+			},
+			{	:product_type => 'manteau',
+				:price => 4
+			},
+			{	:product_type => 'impermeable',
+				:price => 4
+			},
+			{	:product_type => 'trench',
+				:price => 4
+			},
+			{	:product_type => 'pantalon_cuir',
+				:price => 4
+			},
+				{	:product_type => 'blouson_cuir',
+				:price => 4
+			},
+			{	:product_type => 'veste_cuir',
+				:price => 4
+			},
+			{	:product_type => 'manteau_cuir',
+				:price => 4
+			},
+			{	:product_type => 'robe_cuir',
+				:price => 4
+			},
+			{	:product_type => 'jupe_cuir',
+				:price => 4
+			},
+			{	:product_type => 'carre_de_soie',
+				:price => 4
+			},
+			{	:product_type => 'chapeau',
+				:price => 4
+			},
+			{	:product_type => 'bonnet',
+				:price => 4
+			},
+			{	:product_type => 'casquette',
+				:price => 74
+			}
+		]
+	}
+}
+
+Pressing.create(params[:Pressing])
+
+params =  { Pressing:	{
+		name: 'Pressing Au Savoir Fer',
+		address: '34 rue Garibaldi 69006 Lyon',
+		phone: '0608473674',
+		items_attributes: [
+			{	:product_type => 'test',
+				:price => 0
+			},
+			{	:product_type => 'tshirt',
+				:price => 4
+			},
+			{	:product_type => 'polo',
+				:price => 4
+			},
+			{	:product_type => 'chemise',
+				:price => 4
+			},
+			{	:product_type => 'pull',
+				:price => 4
+			},
+			{	:product_type => 'gilet',
+				:price => 4
+			},
+			{	:product_type => 'pantalon',
+				:price => 4
+			},
+			{	:product_type => 'costume',
+				:price => 4
+			},
+			{	:product_type => 'chemisier',
+				:price => 4
+			},
+			{	:product_type => 'blouse',
+				:price => 4
+			},
+			{	:product_type => 'robe',
+				:price => 4
+			},
+			{	:product_type => 'pantalon',
+				:price => 4
+			},
+			{	:product_type => 'jupe',
+				:price => 4
+			},
+			{	:product_type => 'jupe_plissee',
+				:price => 4
+			},
+			{	:product_type => 'tailleur',
+				:price => 4
+			},
+			{	:product_type => 'blouson',
+				:price => 4
+			},
+			{	:product_type => 'doudoune',
+				:price => 4
+			},
+			{	:product_type => 'manteau',
+				:price => 4
+			},
+			{	:product_type => 'impermeable',
+				:price => 4
+			},
+			{	:product_type => 'trench',
+				:price => 4
+			},
+			{	:product_type => 'pantalon_cuir',
+				:price => 4
+			},
+				{	:product_type => 'blouson_cuir',
+				:price => 4
+			},
+			{	:product_type => 'veste_cuir',
+				:price => 4
+			},
+			{	:product_type => 'manteau_cuir',
+				:price => 4
+			},
+			{	:product_type => 'robe_cuir',
+				:price => 4
+			},
+			{	:product_type => 'jupe_cuir',
+				:price => 4
+			},
+			{	:product_type => 'carre_de_soie',
+				:price => 4
+			},
+			{	:product_type => 'chapeau',
+				:price => 4
+			},
+			{	:product_type => 'bonnet',
+				:price => 4
+			},
+			{	:product_type => 'casquette',
+				:price => 74
+			}
+		]
+	}
+}
+
+Pressing.create(params[:Pressing])
+
+params =  { Pressing:	{
+		name: 'Pressing Ramiz',
+		address: '94 rue Garibaldi 69004 Lyon',
+		phone: '0608473674',
+		items_attributes: [
+			{	:product_type => 'test',
+				:price => 0
+			},
+			{	:product_type => 'tshirt',
+				:price => 4
+			},
+			{	:product_type => 'polo',
+				:price => 4
+			},
+			{	:product_type => 'chemise',
+				:price => 4
+			},
+			{	:product_type => 'pull',
+				:price => 4
+			},
+			{	:product_type => 'gilet',
+				:price => 4
+			},
+			{	:product_type => 'pantalon',
+				:price => 4
+			},
+			{	:product_type => 'costume',
+				:price => 4
+			},
+			{	:product_type => 'chemisier',
+				:price => 4
+			},
+			{	:product_type => 'blouse',
+				:price => 4
+			},
+			{	:product_type => 'robe',
+				:price => 4
+			},
+			{	:product_type => 'pantalon',
+				:price => 4
+			},
+			{	:product_type => 'jupe',
+				:price => 4
+			},
+			{	:product_type => 'jupe_plissee',
+				:price => 4
+			},
+			{	:product_type => 'tailleur',
+				:price => 4
+			},
+			{	:product_type => 'blouson',
+				:price => 4
+			},
+			{	:product_type => 'doudoune',
+				:price => 4
+			},
+			{	:product_type => 'manteau',
+				:price => 4
+			},
+			{	:product_type => 'impermeable',
+				:price => 4
+			},
+			{	:product_type => 'trench',
+				:price => 4
+			},
+			{	:product_type => 'pantalon_cuir',
+				:price => 4
+			},
+				{	:product_type => 'blouson_cuir',
+				:price => 4
+			},
+			{	:product_type => 'veste_cuir',
+				:price => 4
+			},
+			{	:product_type => 'manteau_cuir',
+				:price => 4
+			},
+			{	:product_type => 'robe_cuir',
+				:price => 4
+			},
+			{	:product_type => 'jupe_cuir',
+				:price => 4
+			},
+			{	:product_type => 'carre_de_soie',
+				:price => 4
+			},
+			{	:product_type => 'chapeau',
+				:price => 4
+			},
+			{	:product_type => 'bonnet',
+				:price => 4
+			},
+			{	:product_type => 'casquette',
+				:price => 74
+			}
+		]
+	}
+}
+
+Pressing.create(params[:Pressing])
+
+params =  { Pressing:	{
+		name: 'Olymp Pressing',
+		address: '98 cours Vitton 69006 Lyon',
+		phone: '0608473674',
+		items_attributes: [
+			{	:product_type => 'test',
+				:price => 0
+			},
+			{	:product_type => 'tshirt',
+				:price => 4
+			},
+			{	:product_type => 'polo',
+				:price => 4
+			},
+			{	:product_type => 'chemise',
+				:price => 4
+			},
+			{	:product_type => 'pull',
+				:price => 4
+			},
+			{	:product_type => 'gilet',
+				:price => 4
+			},
+			{	:product_type => 'pantalon',
+				:price => 4
+			},
+			{	:product_type => 'costume',
+				:price => 4
+			},
+			{	:product_type => 'chemisier',
+				:price => 4
+			},
+			{	:product_type => 'blouse',
+				:price => 4
+			},
+			{	:product_type => 'robe',
+				:price => 4
+			},
+			{	:product_type => 'pantalon',
+				:price => 4
+			},
+			{	:product_type => 'jupe',
+				:price => 4
+			},
+			{	:product_type => 'jupe_plissee',
+				:price => 4
+			},
+			{	:product_type => 'tailleur',
+				:price => 4
+			},
+			{	:product_type => 'blouson',
+				:price => 4
+			},
+			{	:product_type => 'doudoune',
+				:price => 4
+			},
+			{	:product_type => 'manteau',
+				:price => 4
+			},
+			{	:product_type => 'impermeable',
+				:price => 4
+			},
+			{	:product_type => 'trench',
+				:price => 4
+			},
+			{	:product_type => 'pantalon_cuir',
+				:price => 4
+			},
+				{	:product_type => 'blouson_cuir',
+				:price => 4
+			},
+			{	:product_type => 'veste_cuir',
+				:price => 4
+			},
+			{	:product_type => 'manteau_cuir',
+				:price => 4
+			},
+			{	:product_type => 'robe_cuir',
+				:price => 4
+			},
+			{	:product_type => 'jupe_cuir',
+				:price => 4
+			},
+			{	:product_type => 'carre_de_soie',
+				:price => 4
+			},
+			{	:product_type => 'chapeau',
+				:price => 4
+			},
+			{	:product_type => 'bonnet',
+				:price => 4
+			},
+			{	:product_type => 'casquette',
+				:price => 74
+			}
+		]
+	}
+}
+
+Pressing.create(params[:Pressing])
+
+params =  { Pressing:	{
+		name: 'Pressing Allo Laverie',
+		address: '241 cours Lafayette 69006 Lyon',
+		phone: '0608473674',
+		items_attributes: [
+			{	:product_type => 'test',
+				:price => 0
+			},
+			{	:product_type => 'tshirt',
+				:price => 4
+			},
+			{	:product_type => 'polo',
+				:price => 4
+			},
+			{	:product_type => 'chemise',
+				:price => 4
+			},
+			{	:product_type => 'pull',
+				:price => 4
+			},
+			{	:product_type => 'gilet',
+				:price => 4
+			},
+			{	:product_type => 'pantalon',
+				:price => 4
+			},
+			{	:product_type => 'costume',
+				:price => 4
+			},
+			{	:product_type => 'chemisier',
+				:price => 4
+			},
+			{	:product_type => 'blouse',
+				:price => 4
+			},
+			{	:product_type => 'robe',
+				:price => 4
+			},
+			{	:product_type => 'pantalon',
+				:price => 4
+			},
+			{	:product_type => 'jupe',
+				:price => 4
+			},
+			{	:product_type => 'jupe_plissee',
+				:price => 4
+			},
+			{	:product_type => 'tailleur',
+				:price => 4
+			},
+			{	:product_type => 'blouson',
+				:price => 4
+			},
+			{	:product_type => 'doudoune',
+				:price => 4
+			},
+			{	:product_type => 'manteau',
+				:price => 4
+			},
+			{	:product_type => 'impermeable',
+				:price => 4
+			},
+			{	:product_type => 'trench',
+				:price => 4
+			},
+			{	:product_type => 'pantalon_cuir',
+				:price => 4
+			},
+				{	:product_type => 'blouson_cuir',
+				:price => 4
+			},
+			{	:product_type => 'veste_cuir',
+				:price => 4
+			},
+			{	:product_type => 'manteau_cuir',
+				:price => 4
+			},
+			{	:product_type => 'robe_cuir',
+				:price => 4
+			},
+			{	:product_type => 'jupe_cuir',
+				:price => 4
+			},
+			{	:product_type => 'carre_de_soie',
+				:price => 4
+			},
+			{	:product_type => 'chapeau',
+				:price => 4
+			},
+			{	:product_type => 'bonnet',
+				:price => 4
+			},
+			{	:product_type => 'casquette',
+				:price => 74
+			}
+		]
+	}
+}
+
+Pressing.create(params[:Pressing])
+
+params =  { Pressing:	{
+		name: 'Jany Pressing',
+		address: '31 rue Masséna 69006 Lyon',
+		phone: '0608473674',
+		items_attributes: [
+			{	:product_type => 'test',
+				:price => 0
+			},
+			{	:product_type => 'tshirt',
+				:price => 4
+			},
+			{	:product_type => 'polo',
+				:price => 4
+			},
+			{	:product_type => 'chemise',
+				:price => 4
+			},
+			{	:product_type => 'pull',
+				:price => 4
+			},
+			{	:product_type => 'gilet',
+				:price => 4
+			},
+			{	:product_type => 'pantalon',
+				:price => 4
+			},
+			{	:product_type => 'costume',
+				:price => 4
+			},
+			{	:product_type => 'chemisier',
+				:price => 4
+			},
+			{	:product_type => 'blouse',
+				:price => 4
+			},
+			{	:product_type => 'robe',
+				:price => 4
+			},
+			{	:product_type => 'pantalon',
+				:price => 4
+			},
+			{	:product_type => 'jupe',
+				:price => 4
+			},
+			{	:product_type => 'jupe_plissee',
+				:price => 4
+			},
+			{	:product_type => 'tailleur',
+				:price => 4
+			},
+			{	:product_type => 'blouson',
+				:price => 4
+			},
+			{	:product_type => 'doudoune',
+				:price => 4
+			},
+			{	:product_type => 'manteau',
+				:price => 4
+			},
+			{	:product_type => 'impermeable',
+				:price => 4
+			},
+			{	:product_type => 'trench',
+				:price => 4
+			},
+			{	:product_type => 'pantalon_cuir',
+				:price => 4
+			},
+				{	:product_type => 'blouson_cuir',
+				:price => 4
+			},
+			{	:product_type => 'veste_cuir',
+				:price => 4
+			},
+			{	:product_type => 'manteau_cuir',
+				:price => 4
+			},
+			{	:product_type => 'robe_cuir',
+				:price => 4
+			},
+			{	:product_type => 'jupe_cuir',
+				:price => 4
+			},
+			{	:product_type => 'carre_de_soie',
+				:price => 4
+			},
+			{	:product_type => 'chapeau',
+				:price => 4
+			},
+			{	:product_type => 'bonnet',
+				:price => 4
+			},
+			{	:product_type => 'casquette',
+				:price => 74
+			}
+		]
+	}
+}
+
+Pressing.create(params[:Pressing])
+
+params =  { Pressing:	{
+		name: 'Must Pressing',
+		address: '104 cours Vitton 69006 Lyon',
+		phone: '0608473674',
+		items_attributes: [
+			{	:product_type => 'test',
+				:price => 0
+			},
+			{	:product_type => 'tshirt',
+				:price => 4
+			},
+			{	:product_type => 'polo',
+				:price => 4
+			},
+			{	:product_type => 'chemise',
+				:price => 4
+			},
+			{	:product_type => 'pull',
+				:price => 4
+			},
+			{	:product_type => 'gilet',
+				:price => 4
+			},
+			{	:product_type => 'pantalon',
+				:price => 4
+			},
+			{	:product_type => 'costume',
+				:price => 4
+			},
+			{	:product_type => 'chemisier',
+				:price => 4
+			},
+			{	:product_type => 'blouse',
+				:price => 4
+			},
+			{	:product_type => 'robe',
+				:price => 4
+			},
+			{	:product_type => 'pantalon',
+				:price => 4
+			},
+			{	:product_type => 'jupe',
+				:price => 4
+			},
+			{	:product_type => 'jupe_plissee',
+				:price => 4
+			},
+			{	:product_type => 'tailleur',
+				:price => 4
+			},
+			{	:product_type => 'blouson',
+				:price => 4
+			},
+			{	:product_type => 'doudoune',
+				:price => 4
+			},
+			{	:product_type => 'manteau',
+				:price => 4
+			},
+			{	:product_type => 'impermeable',
+				:price => 4
+			},
+			{	:product_type => 'trench',
+				:price => 4
+			},
+			{	:product_type => 'pantalon_cuir',
+				:price => 4
+			},
+				{	:product_type => 'blouson_cuir',
+				:price => 4
+			},
+			{	:product_type => 'veste_cuir',
+				:price => 4
+			},
+			{	:product_type => 'manteau_cuir',
+				:price => 4
+			},
+			{	:product_type => 'robe_cuir',
+				:price => 4
+			},
+			{	:product_type => 'jupe_cuir',
+				:price => 4
+			},
+			{	:product_type => 'carre_de_soie',
+				:price => 4
+			},
+			{	:product_type => 'chapeau',
+				:price => 4
+			},
+			{	:product_type => 'bonnet',
+				:price => 4
+			},
+			{	:product_type => 'casquette',
+				:price => 74
+			}
+		]
+	}
+}
+
+Pressing.create(params[:Pressing])
+
+params =  { Pressing:	{
+		name: 'Pressing 6',
+		address: '41 rue Juliette Récamier 69006 Lyon',
+		phone: '0608473674',
+		items_attributes: [
+			{	:product_type => 'test',
+				:price => 0
+			},
+			{	:product_type => 'tshirt',
+				:price => 4
+			},
+			{	:product_type => 'polo',
+				:price => 4
+			},
+			{	:product_type => 'chemise',
+				:price => 4
+			},
+			{	:product_type => 'pull',
+				:price => 4
+			},
+			{	:product_type => 'gilet',
+				:price => 4
+			},
+			{	:product_type => 'pantalon',
+				:price => 4
+			},
+			{	:product_type => 'costume',
+				:price => 4
+			},
+			{	:product_type => 'chemisier',
+				:price => 4
+			},
+			{	:product_type => 'blouse',
+				:price => 4
+			},
+			{	:product_type => 'robe',
+				:price => 4
+			},
+			{	:product_type => 'pantalon',
+				:price => 4
+			},
+			{	:product_type => 'jupe',
+				:price => 4
+			},
+			{	:product_type => 'jupe_plissee',
+				:price => 4
+			},
+			{	:product_type => 'tailleur',
+				:price => 4
+			},
+			{	:product_type => 'blouson',
+				:price => 4
+			},
+			{	:product_type => 'doudoune',
+				:price => 4
+			},
+			{	:product_type => 'manteau',
+				:price => 4
+			},
+			{	:product_type => 'impermeable',
+				:price => 4
+			},
+			{	:product_type => 'trench',
+				:price => 4
+			},
+			{	:product_type => 'pantalon_cuir',
+				:price => 4
+			},
+				{	:product_type => 'blouson_cuir',
+				:price => 4
+			},
+			{	:product_type => 'veste_cuir',
+				:price => 4
+			},
+			{	:product_type => 'manteau_cuir',
+				:price => 4
+			},
+			{	:product_type => 'robe_cuir',
+				:price => 4
+			},
+			{	:product_type => 'jupe_cuir',
+				:price => 4
+			},
+			{	:product_type => 'carre_de_soie',
+				:price => 4
+			},
+			{	:product_type => 'chapeau',
+				:price => 4
+			},
+			{	:product_type => 'bonnet',
+				:price => 4
+			},
+			{	:product_type => 'casquette',
+				:price => 74
+			}
+		]
+	}
+}
+
+Pressing.create(params[:Pressing])
+
+params =  { Pressing:	{
+		name: 'Pressing Vauban',
+		address: '21 rue Louis Blanc 69006 Lyon',
+		phone: '0608473674',
+		items_attributes: [
+			{	:product_type => 'test',
+				:price => 0
+			},
+			{	:product_type => 'tshirt',
+				:price => 4
+			},
+			{	:product_type => 'polo',
+				:price => 4
+			},
+			{	:product_type => 'chemise',
+				:price => 4
+			},
+			{	:product_type => 'pull',
+				:price => 4
+			},
+			{	:product_type => 'gilet',
+				:price => 4
+			},
+			{	:product_type => 'pantalon',
+				:price => 4
+			},
+			{	:product_type => 'costume',
+				:price => 4
+			},
+			{	:product_type => 'chemisier',
+				:price => 4
+			},
+			{	:product_type => 'blouse',
+				:price => 4
+			},
+			{	:product_type => 'robe',
+				:price => 4
+			},
+			{	:product_type => 'pantalon',
+				:price => 4
+			},
+			{	:product_type => 'jupe',
+				:price => 4
+			},
+			{	:product_type => 'jupe_plissee',
+				:price => 4
+			},
+			{	:product_type => 'tailleur',
+				:price => 4
+			},
+			{	:product_type => 'blouson',
+				:price => 4
+			},
+			{	:product_type => 'doudoune',
+				:price => 4
+			},
+			{	:product_type => 'manteau',
+				:price => 4
+			},
+			{	:product_type => 'impermeable',
+				:price => 4
+			},
+			{	:product_type => 'trench',
+				:price => 4
+			},
+			{	:product_type => 'pantalon_cuir',
+				:price => 4
+			},
+				{	:product_type => 'blouson_cuir',
+				:price => 4
+			},
+			{	:product_type => 'veste_cuir',
+				:price => 4
+			},
+			{	:product_type => 'manteau_cuir',
+				:price => 4
+			},
+			{	:product_type => 'robe_cuir',
+				:price => 4
+			},
+			{	:product_type => 'jupe_cuir',
+				:price => 4
+			},
+			{	:product_type => 'carre_de_soie',
+				:price => 4
+			},
+			{	:product_type => 'chapeau',
+				:price => 4
+			},
+			{	:product_type => 'bonnet',
+				:price => 4
+			},
+			{	:product_type => 'casquette',
+				:price => 74
+			}
+		]
+	}
+}
+
+Pressing.create(params[:Pressing])
+
+params =  { Pressing:	{
+		name: 'Cap Net',
+		address: '50 rue Thibaudière 69007 Lyon',
+		phone: '0608473674',
+		items_attributes: [
+			{	:product_type => 'test',
+				:price => 0
+			},
+			{	:product_type => 'tshirt',
+				:price => 4
+			},
+			{	:product_type => 'polo',
+				:price => 4
+			},
+			{	:product_type => 'chemise',
+				:price => 4
+			},
+			{	:product_type => 'pull',
+				:price => 4
+			},
+			{	:product_type => 'gilet',
+				:price => 4
+			},
+			{	:product_type => 'pantalon',
+				:price => 4
+			},
+			{	:product_type => 'costume',
+				:price => 4
+			},
+			{	:product_type => 'chemisier',
+				:price => 4
+			},
+			{	:product_type => 'blouse',
+				:price => 4
+			},
+			{	:product_type => 'robe',
+				:price => 4
+			},
+			{	:product_type => 'pantalon',
+				:price => 4
+			},
+			{	:product_type => 'jupe',
+				:price => 4
+			},
+			{	:product_type => 'jupe_plissee',
+				:price => 4
+			},
+			{	:product_type => 'tailleur',
+				:price => 4
+			},
+			{	:product_type => 'blouson',
+				:price => 4
+			},
+			{	:product_type => 'doudoune',
+				:price => 4
+			},
+			{	:product_type => 'manteau',
+				:price => 4
+			},
+			{	:product_type => 'impermeable',
+				:price => 4
+			},
+			{	:product_type => 'trench',
+				:price => 4
+			},
+			{	:product_type => 'pantalon_cuir',
+				:price => 4
+			},
+				{	:product_type => 'blouson_cuir',
+				:price => 4
+			},
+			{	:product_type => 'veste_cuir',
+				:price => 4
+			},
+			{	:product_type => 'manteau_cuir',
+				:price => 4
+			},
+			{	:product_type => 'robe_cuir',
+				:price => 4
+			},
+			{	:product_type => 'jupe_cuir',
+				:price => 4
+			},
+			{	:product_type => 'carre_de_soie',
+				:price => 4
+			},
+			{	:product_type => 'chapeau',
+				:price => 4
+			},
+			{	:product_type => 'bonnet',
+				:price => 4
+			},
+			{	:product_type => 'casquette',
+				:price => 74
+			}
+		]
+	}
+}
+
+Pressing.create(params[:Pressing])
+
+params =  { Pressing:	{
+		name: 'Lav\'Plus Pressing',
+		address: '206 grande rue de la Guillotière 69007 Lyon',
+		phone: '0608473674',
+		items_attributes: [
+			{	:product_type => 'test',
+				:price => 0
+			},
+			{	:product_type => 'tshirt',
+				:price => 4
+			},
+			{	:product_type => 'polo',
+				:price => 4
+			},
+			{	:product_type => 'chemise',
+				:price => 4
+			},
+			{	:product_type => 'pull',
+				:price => 4
+			},
+			{	:product_type => 'gilet',
+				:price => 4
+			},
+			{	:product_type => 'pantalon',
+				:price => 4
+			},
+			{	:product_type => 'costume',
+				:price => 4
+			},
+			{	:product_type => 'chemisier',
+				:price => 4
+			},
+			{	:product_type => 'blouse',
+				:price => 4
+			},
+			{	:product_type => 'robe',
+				:price => 4
+			},
+			{	:product_type => 'pantalon',
+				:price => 4
+			},
+			{	:product_type => 'jupe',
+				:price => 4
+			},
+			{	:product_type => 'jupe_plissee',
+				:price => 4
+			},
+			{	:product_type => 'tailleur',
+				:price => 4
+			},
+			{	:product_type => 'blouson',
+				:price => 4
+			},
+			{	:product_type => 'doudoune',
+				:price => 4
+			},
+			{	:product_type => 'manteau',
+				:price => 4
+			},
+			{	:product_type => 'impermeable',
+				:price => 4
+			},
+			{	:product_type => 'trench',
+				:price => 4
+			},
+			{	:product_type => 'pantalon_cuir',
+				:price => 4
+			},
+				{	:product_type => 'blouson_cuir',
+				:price => 4
+			},
+			{	:product_type => 'veste_cuir',
+				:price => 4
+			},
+			{	:product_type => 'manteau_cuir',
+				:price => 4
+			},
+			{	:product_type => 'robe_cuir',
+				:price => 4
+			},
+			{	:product_type => 'jupe_cuir',
+				:price => 4
+			},
+			{	:product_type => 'carre_de_soie',
+				:price => 4
+			},
+			{	:product_type => 'chapeau',
+				:price => 4
+			},
+			{	:product_type => 'bonnet',
+				:price => 4
+			},
+			{	:product_type => 'casquette',
+				:price => 74
+			}
+		]
+	}
+}
+
+Pressing.create(params[:Pressing])
+
+params =  { Pressing:	{
+		name: 'Pressing Du Stade',
+		address: '178 rue Gerland 69007 Lyon',
+		phone: '0608473674',
+		items_attributes: [
+			{	:product_type => 'test',
+				:price => 0
+			},
+			{	:product_type => 'tshirt',
+				:price => 4
+			},
+			{	:product_type => 'polo',
+				:price => 4
+			},
+			{	:product_type => 'chemise',
+				:price => 4
+			},
+			{	:product_type => 'pull',
+				:price => 4
+			},
+			{	:product_type => 'gilet',
+				:price => 4
+			},
+			{	:product_type => 'pantalon',
+				:price => 4
+			},
+			{	:product_type => 'costume',
+				:price => 4
+			},
+			{	:product_type => 'chemisier',
+				:price => 4
+			},
+			{	:product_type => 'blouse',
+				:price => 4
+			},
+			{	:product_type => 'robe',
+				:price => 4
+			},
+			{	:product_type => 'pantalon',
+				:price => 4
+			},
+			{	:product_type => 'jupe',
+				:price => 4
+			},
+			{	:product_type => 'jupe_plissee',
+				:price => 4
+			},
+			{	:product_type => 'tailleur',
+				:price => 4
+			},
+			{	:product_type => 'blouson',
+				:price => 4
+			},
+			{	:product_type => 'doudoune',
+				:price => 4
+			},
+			{	:product_type => 'manteau',
+				:price => 4
+			},
+			{	:product_type => 'impermeable',
+				:price => 4
+			},
+			{	:product_type => 'trench',
+				:price => 4
+			},
+			{	:product_type => 'pantalon_cuir',
+				:price => 4
+			},
+				{	:product_type => 'blouson_cuir',
+				:price => 4
+			},
+			{	:product_type => 'veste_cuir',
+				:price => 4
+			},
+			{	:product_type => 'manteau_cuir',
+				:price => 4
+			},
+			{	:product_type => 'robe_cuir',
+				:price => 4
+			},
+			{	:product_type => 'jupe_cuir',
+				:price => 4
+			},
+			{	:product_type => 'carre_de_soie',
+				:price => 4
+			},
+			{	:product_type => 'chapeau',
+				:price => 4
+			},
+			{	:product_type => 'bonnet',
+				:price => 4
+			},
+			{	:product_type => 'casquette',
+				:price => 74
+			}
+		]
+	}
+}
+
+Pressing.create(params[:Pressing])
+
+params =  { Pressing:	{
+		name: 'Gerland Pressing',
+		address: '261 Avenue Jean Jaurès 69007 Lyon',
+		phone: '0608473674',
+		items_attributes: [
+			{	:product_type => 'test',
+				:price => 0
+			},
+			{	:product_type => 'tshirt',
+				:price => 4
+			},
+			{	:product_type => 'polo',
+				:price => 4
+			},
+			{	:product_type => 'chemise',
+				:price => 4
+			},
+			{	:product_type => 'pull',
+				:price => 4
+			},
+			{	:product_type => 'gilet',
+				:price => 4
+			},
+			{	:product_type => 'pantalon',
+				:price => 4
+			},
+			{	:product_type => 'costume',
+				:price => 4
+			},
+			{	:product_type => 'chemisier',
+				:price => 4
+			},
+			{	:product_type => 'blouse',
+				:price => 4
+			},
+			{	:product_type => 'robe',
+				:price => 4
+			},
+			{	:product_type => 'pantalon',
+				:price => 4
+			},
+			{	:product_type => 'jupe',
+				:price => 4
+			},
+			{	:product_type => 'jupe_plissee',
+				:price => 4
+			},
+			{	:product_type => 'tailleur',
+				:price => 4
+			},
+			{	:product_type => 'blouson',
+				:price => 4
+			},
+			{	:product_type => 'doudoune',
+				:price => 4
+			},
+			{	:product_type => 'manteau',
+				:price => 4
+			},
+			{	:product_type => 'impermeable',
+				:price => 4
+			},
+			{	:product_type => 'trench',
+				:price => 4
+			},
+			{	:product_type => 'pantalon_cuir',
+				:price => 4
+			},
+				{	:product_type => 'blouson_cuir',
+				:price => 4
+			},
+			{	:product_type => 'veste_cuir',
+				:price => 4
+			},
+			{	:product_type => 'manteau_cuir',
+				:price => 4
+			},
+			{	:product_type => 'robe_cuir',
+				:price => 4
+			},
+			{	:product_type => 'jupe_cuir',
+				:price => 4
+			},
+			{	:product_type => 'carre_de_soie',
+				:price => 4
+			},
+			{	:product_type => 'chapeau',
+				:price => 4
+			},
+			{	:product_type => 'bonnet',
+				:price => 4
+			},
+			{	:product_type => 'casquette',
+				:price => 74
+			}
+		]
+	}
+}
+
+Pressing.create(params[:Pressing])
+
+params =  { Pressing:	{
+		name: 'Pressing C\'Clean',
+		address: '142 avenue Frères Lumière 69008 Lyon',
+		phone: '0608473674',
+		items_attributes: [
+			{	:product_type => 'test',
+				:price => 0
+			},
+			{	:product_type => 'tshirt',
+				:price => 4
+			},
+			{	:product_type => 'polo',
+				:price => 4
+			},
+			{	:product_type => 'chemise',
+				:price => 4
+			},
+			{	:product_type => 'pull',
+				:price => 4
+			},
+			{	:product_type => 'gilet',
+				:price => 4
+			},
+			{	:product_type => 'pantalon',
+				:price => 4
+			},
+			{	:product_type => 'costume',
+				:price => 4
+			},
+			{	:product_type => 'chemisier',
+				:price => 4
+			},
+			{	:product_type => 'blouse',
+				:price => 4
+			},
+			{	:product_type => 'robe',
+				:price => 4
+			},
+			{	:product_type => 'pantalon',
+				:price => 4
+			},
+			{	:product_type => 'jupe',
+				:price => 4
+			},
+			{	:product_type => 'jupe_plissee',
+				:price => 4
+			},
+			{	:product_type => 'tailleur',
+				:price => 4
+			},
+			{	:product_type => 'blouson',
+				:price => 4
+			},
+			{	:product_type => 'doudoune',
+				:price => 4
+			},
+			{	:product_type => 'manteau',
+				:price => 4
+			},
+			{	:product_type => 'impermeable',
+				:price => 4
+			},
+			{	:product_type => 'trench',
+				:price => 4
+			},
+			{	:product_type => 'pantalon_cuir',
+				:price => 4
+			},
+				{	:product_type => 'blouson_cuir',
+				:price => 4
+			},
+			{	:product_type => 'veste_cuir',
+				:price => 4
+			},
+			{	:product_type => 'manteau_cuir',
+				:price => 4
+			},
+			{	:product_type => 'robe_cuir',
+				:price => 4
+			},
+			{	:product_type => 'jupe_cuir',
+				:price => 4
+			},
+			{	:product_type => 'carre_de_soie',
+				:price => 4
+			},
+			{	:product_type => 'chapeau',
+				:price => 4
+			},
+			{	:product_type => 'bonnet',
+				:price => 4
+			},
+			{	:product_type => 'casquette',
+				:price => 74
+			}
+		]
+	}
+}
+
+Pressing.create(params[:Pressing])
+
+params =  { Pressing:	{
+		name: 'Pressing Amandine',
+		address: '93 rue Villon 69008 Lyon',
+		phone: '0608473674',
+		items_attributes: [
+			{	:product_type => 'test',
+				:price => 0
+			},
+			{	:product_type => 'tshirt',
+				:price => 4
+			},
+			{	:product_type => 'polo',
+				:price => 4
+			},
+			{	:product_type => 'chemise',
+				:price => 4
+			},
+			{	:product_type => 'pull',
+				:price => 4
+			},
+			{	:product_type => 'gilet',
+				:price => 4
+			},
+			{	:product_type => 'pantalon',
+				:price => 4
+			},
+			{	:product_type => 'costume',
+				:price => 4
+			},
+			{	:product_type => 'chemisier',
+				:price => 4
+			},
+			{	:product_type => 'blouse',
+				:price => 4
+			},
+			{	:product_type => 'robe',
+				:price => 4
+			},
+			{	:product_type => 'pantalon',
+				:price => 4
+			},
+			{	:product_type => 'jupe',
+				:price => 4
+			},
+			{	:product_type => 'jupe_plissee',
+				:price => 4
+			},
+			{	:product_type => 'tailleur',
+				:price => 4
+			},
+			{	:product_type => 'blouson',
+				:price => 4
+			},
+			{	:product_type => 'doudoune',
+				:price => 4
+			},
+			{	:product_type => 'manteau',
+				:price => 4
+			},
+			{	:product_type => 'impermeable',
+				:price => 4
+			},
+			{	:product_type => 'trench',
+				:price => 4
+			},
+			{	:product_type => 'pantalon_cuir',
+				:price => 4
+			},
+				{	:product_type => 'blouson_cuir',
+				:price => 4
+			},
+			{	:product_type => 'veste_cuir',
+				:price => 4
+			},
+			{	:product_type => 'manteau_cuir',
+				:price => 4
+			},
+			{	:product_type => 'robe_cuir',
+				:price => 4
+			},
+			{	:product_type => 'jupe_cuir',
+				:price => 4
+			},
+			{	:product_type => 'carre_de_soie',
+				:price => 4
+			},
+			{	:product_type => 'chapeau',
+				:price => 4
+			},
+			{	:product_type => 'bonnet',
+				:price => 4
+			},
+			{	:product_type => 'casquette',
+				:price => 74
+			}
+		]
+	}
+}
+
+Pressing.create(params[:Pressing])
+
+params =  { Pressing:	{
+		name: 'O Pressing',
+		address: '3 avenue Paul Santy 69008 Lyon',
+		phone: '0608473674',
+		items_attributes: [
+			{	:product_type => 'test',
+				:price => 0
+			},
+			{	:product_type => 'tshirt',
+				:price => 4
+			},
+			{	:product_type => 'polo',
+				:price => 4
+			},
+			{	:product_type => 'chemise',
+				:price => 4
+			},
+			{	:product_type => 'pull',
+				:price => 4
+			},
+			{	:product_type => 'gilet',
+				:price => 4
+			},
+			{	:product_type => 'pantalon',
+				:price => 4
+			},
+			{	:product_type => 'costume',
+				:price => 4
+			},
+			{	:product_type => 'chemisier',
+				:price => 4
+			},
+			{	:product_type => 'blouse',
+				:price => 4
+			},
+			{	:product_type => 'robe',
+				:price => 4
+			},
+			{	:product_type => 'pantalon',
+				:price => 4
+			},
+			{	:product_type => 'jupe',
+				:price => 4
+			},
+			{	:product_type => 'jupe_plissee',
+				:price => 4
+			},
+			{	:product_type => 'tailleur',
+				:price => 4
+			},
+			{	:product_type => 'blouson',
+				:price => 4
+			},
+			{	:product_type => 'doudoune',
+				:price => 4
+			},
+			{	:product_type => 'manteau',
+				:price => 4
+			},
+			{	:product_type => 'impermeable',
+				:price => 4
+			},
+			{	:product_type => 'trench',
+				:price => 4
+			},
+			{	:product_type => 'pantalon_cuir',
+				:price => 4
+			},
+				{	:product_type => 'blouson_cuir',
+				:price => 4
+			},
+			{	:product_type => 'veste_cuir',
+				:price => 4
+			},
+			{	:product_type => 'manteau_cuir',
+				:price => 4
+			},
+			{	:product_type => 'robe_cuir',
+				:price => 4
+			},
+			{	:product_type => 'jupe_cuir',
+				:price => 4
+			},
+			{	:product_type => 'carre_de_soie',
+				:price => 4
+			},
+			{	:product_type => 'chapeau',
+				:price => 4
+			},
+			{	:product_type => 'bonnet',
+				:price => 4
+			},
+			{	:product_type => 'casquette',
+				:price => 74
+			}
+		]
+	}
+}
+
+Pressing.create(params[:Pressing])
+
+params =  { Pressing:	{
+		name: 'Clean Discount Pressing',
+		address: '70 rue Paul Cazeneuve 69008 Lyon',
+		phone: '0608473674',
+		items_attributes: [
+			{	:product_type => 'test',
+				:price => 0
+			},
+			{	:product_type => 'tshirt',
+				:price => 4
+			},
+			{	:product_type => 'polo',
+				:price => 4
+			},
+			{	:product_type => 'chemise',
+				:price => 4
+			},
+			{	:product_type => 'pull',
+				:price => 4
+			},
+			{	:product_type => 'gilet',
+				:price => 4
+			},
+			{	:product_type => 'pantalon',
+				:price => 4
+			},
+			{	:product_type => 'costume',
+				:price => 4
+			},
+			{	:product_type => 'chemisier',
+				:price => 4
+			},
+			{	:product_type => 'blouse',
+				:price => 4
+			},
+			{	:product_type => 'robe',
+				:price => 4
+			},
+			{	:product_type => 'pantalon',
+				:price => 4
+			},
+			{	:product_type => 'jupe',
+				:price => 4
+			},
+			{	:product_type => 'jupe_plissee',
+				:price => 4
+			},
+			{	:product_type => 'tailleur',
+				:price => 4
+			},
+			{	:product_type => 'blouson',
+				:price => 4
+			},
+			{	:product_type => 'doudoune',
+				:price => 4
+			},
+			{	:product_type => 'manteau',
+				:price => 4
+			},
+			{	:product_type => 'impermeable',
+				:price => 4
+			},
+			{	:product_type => 'trench',
+				:price => 4
+			},
+			{	:product_type => 'pantalon_cuir',
+				:price => 4
+			},
+				{	:product_type => 'blouson_cuir',
+				:price => 4
+			},
+			{	:product_type => 'veste_cuir',
+				:price => 4
+			},
+			{	:product_type => 'manteau_cuir',
+				:price => 4
+			},
+			{	:product_type => 'robe_cuir',
+				:price => 4
+			},
+			{	:product_type => 'jupe_cuir',
+				:price => 4
+			},
+			{	:product_type => 'carre_de_soie',
+				:price => 4
+			},
+			{	:product_type => 'chapeau',
+				:price => 4
+			},
+			{	:product_type => 'bonnet',
+				:price => 4
+			},
+			{	:product_type => 'casquette',
+				:price => 74
+			}
+		]
+	}
+}
+
+Pressing.create(params[:Pressing])
+
+params =  { Pressing:	{
+		name: 'Aqua Pressing',
+		address: '17 quai Arloing 69009 Lyon',
+		phone: '0608473674',
+		items_attributes: [
+			{	:product_type => 'test',
+				:price => 0
+			},
+			{	:product_type => 'tshirt',
+				:price => 4
+			},
+			{	:product_type => 'polo',
+				:price => 4
+			},
+			{	:product_type => 'chemise',
+				:price => 4
+			},
+			{	:product_type => 'pull',
+				:price => 4
+			},
+			{	:product_type => 'gilet',
+				:price => 4
+			},
+			{	:product_type => 'pantalon',
+				:price => 4
+			},
+			{	:product_type => 'costume',
+				:price => 4
+			},
+			{	:product_type => 'chemisier',
+				:price => 4
+			},
+			{	:product_type => 'blouse',
+				:price => 4
+			},
+			{	:product_type => 'robe',
+				:price => 4
+			},
+			{	:product_type => 'pantalon',
+				:price => 4
+			},
+			{	:product_type => 'jupe',
+				:price => 4
+			},
+			{	:product_type => 'jupe_plissee',
+				:price => 4
+			},
+			{	:product_type => 'tailleur',
+				:price => 4
+			},
+			{	:product_type => 'blouson',
+				:price => 4
+			},
+			{	:product_type => 'doudoune',
+				:price => 4
+			},
+			{	:product_type => 'manteau',
+				:price => 4
+			},
+			{	:product_type => 'impermeable',
+				:price => 4
+			},
+			{	:product_type => 'trench',
+				:price => 4
+			},
+			{	:product_type => 'pantalon_cuir',
+				:price => 4
+			},
+				{	:product_type => 'blouson_cuir',
+				:price => 4
+			},
+			{	:product_type => 'veste_cuir',
+				:price => 4
+			},
+			{	:product_type => 'manteau_cuir',
+				:price => 4
+			},
+			{	:product_type => 'robe_cuir',
+				:price => 4
+			},
+			{	:product_type => 'jupe_cuir',
+				:price => 4
+			},
+			{	:product_type => 'carre_de_soie',
+				:price => 4
+			},
+			{	:product_type => 'chapeau',
+				:price => 4
+			},
+			{	:product_type => 'bonnet',
+				:price => 4
+			},
+			{	:product_type => 'casquette',
+				:price => 74
+			}
+		]
+	}
+}
+
+Pressing.create(params[:Pressing])
+
+params =  { Pressing:	{
+		name: 'Cap\'Net Pressing',
+		address: '11 place Abbé Pierre 69009 Lyon',
+		phone: '0608473674',
+		items_attributes: [
+			{	:product_type => 'test',
+				:price => 0
+			},
+			{	:product_type => 'tshirt',
+				:price => 4
+			},
+			{	:product_type => 'polo',
+				:price => 4
+			},
+			{	:product_type => 'chemise',
+				:price => 4
+			},
+			{	:product_type => 'pull',
+				:price => 4
+			},
+			{	:product_type => 'gilet',
+				:price => 4
+			},
+			{	:product_type => 'pantalon',
+				:price => 4
+			},
+			{	:product_type => 'costume',
+				:price => 4
+			},
+			{	:product_type => 'chemisier',
+				:price => 4
+			},
+			{	:product_type => 'blouse',
+				:price => 4
+			},
+			{	:product_type => 'robe',
+				:price => 4
+			},
+			{	:product_type => 'pantalon',
+				:price => 4
+			},
+			{	:product_type => 'jupe',
+				:price => 4
+			},
+			{	:product_type => 'jupe_plissee',
+				:price => 4
+			},
+			{	:product_type => 'tailleur',
+				:price => 4
+			},
+			{	:product_type => 'blouson',
+				:price => 4
+			},
+			{	:product_type => 'doudoune',
+				:price => 4
+			},
+			{	:product_type => 'manteau',
+				:price => 4
+			},
+			{	:product_type => 'impermeable',
+				:price => 4
+			},
+			{	:product_type => 'trench',
+				:price => 4
+			},
+			{	:product_type => 'pantalon_cuir',
+				:price => 4
+			},
+				{	:product_type => 'blouson_cuir',
+				:price => 4
+			},
+			{	:product_type => 'veste_cuir',
+				:price => 4
+			},
+			{	:product_type => 'manteau_cuir',
+				:price => 4
+			},
+			{	:product_type => 'robe_cuir',
+				:price => 4
+			},
+			{	:product_type => 'jupe_cuir',
+				:price => 4
+			},
+			{	:product_type => 'carre_de_soie',
+				:price => 4
+			},
+			{	:product_type => 'chapeau',
+				:price => 4
+			},
+			{	:product_type => 'bonnet',
+				:price => 4
+			},
+			{	:product_type => 'casquette',
+				:price => 74
+			}
+		]
+	}
+}
+
+Pressing.create(params[:Pressing])
+
+params =  { Pressing:	{
+		name: 'Pressing Verlaine',
+		address: '90 avenue Barthélémy Buyer 69009 Lyon',
+		phone: '0608473674',
+		items_attributes: [
+			{	:product_type => 'test',
+				:price => 0
+			},
+			{	:product_type => 'tshirt',
+				:price => 4
+			},
+			{	:product_type => 'polo',
+				:price => 4
+			},
+			{	:product_type => 'chemise',
+				:price => 4
+			},
+			{	:product_type => 'pull',
+				:price => 4
+			},
+			{	:product_type => 'gilet',
+				:price => 4
+			},
+			{	:product_type => 'pantalon',
+				:price => 4
+			},
+			{	:product_type => 'costume',
+				:price => 4
+			},
+			{	:product_type => 'chemisier',
+				:price => 4
+			},
+			{	:product_type => 'blouse',
+				:price => 4
+			},
+			{	:product_type => 'robe',
+				:price => 4
+			},
+			{	:product_type => 'pantalon',
+				:price => 4
+			},
+			{	:product_type => 'jupe',
+				:price => 4
+			},
+			{	:product_type => 'jupe_plissee',
+				:price => 4
+			},
+			{	:product_type => 'tailleur',
+				:price => 4
+			},
+			{	:product_type => 'blouson',
+				:price => 4
+			},
+			{	:product_type => 'doudoune',
+				:price => 4
+			},
+			{	:product_type => 'manteau',
+				:price => 4
+			},
+			{	:product_type => 'impermeable',
+				:price => 4
+			},
+			{	:product_type => 'trench',
+				:price => 4
+			},
+			{	:product_type => 'pantalon_cuir',
+				:price => 4
+			},
+				{	:product_type => 'blouson_cuir',
+				:price => 4
+			},
+			{	:product_type => 'veste_cuir',
+				:price => 4
+			},
+			{	:product_type => 'manteau_cuir',
+				:price => 4
+			},
+			{	:product_type => 'robe_cuir',
+				:price => 4
+			},
+			{	:product_type => 'jupe_cuir',
+				:price => 4
+			},
+			{	:product_type => 'carre_de_soie',
+				:price => 4
+			},
+			{	:product_type => 'chapeau',
+				:price => 4
+			},
+			{	:product_type => 'bonnet',
+				:price => 4
+			},
+			{	:product_type => 'casquette',
+				:price => 74
+			}
+		]
+	}
+}
+
+Pressing.create(params[:Pressing])
+
+params =  { Pressing:	{
+		name: 'Laverie 2KS',
+		address: '21 rue Professeur Patel 69009 Lyon',
 		phone: '0608473674',
 		items_attributes: [
 			{	:product_type => 'test',

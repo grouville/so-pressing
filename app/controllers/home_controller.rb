@@ -2,7 +2,7 @@ class HomeController < ApplicationController
 
 	def index
 		if params[:search].present?
-			@@locations = Pressing.near(params[:search],1, {order: ""}).pluck(:id, :name, :address, :phone, :latitude, :longitude)
+			@@locations = Pressing.near(params[:search],0.5, {order: ""}).pluck(:id, :name, :address, :phone, :latitude, :longitude)
 			@@search = Geocoder.coordinates(params[:search])
 			redirect_to :home_select
 		else
@@ -23,10 +23,7 @@ class HomeController < ApplicationController
 		@items = Item.pluck(:id, :price, :pressing_id)
 		result = SortPressing.new(@@popo, @items, @@locations).perform
 		@basket_price = result[0]
-		@pressing_sorted = result[1]
-
-		@markers = result[2]
-		
+		@pressing_sorted = result[1].reject(&:blank?)	
 	end
 
 end
