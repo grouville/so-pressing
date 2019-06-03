@@ -1,24 +1,7 @@
-# README
+SO-PRESSING
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Web application to make your life easier.
 
-Things you may want to cover:
+The objective? You can compare the prices of laundries near you, with a simple user experience.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Project realized in order to manage the backend of a Rails application, the API of google maps, and a little jQuery.
