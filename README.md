@@ -1,6 +1,8 @@
 SO-PRESSING
 
-Web application to make your life easier.
+Web application to make your life easier, and one of my first project.
+
+This project was realized in 7 days.
 
 The objective? You can compare the prices of laundries near you, with a simple user experience.
 
