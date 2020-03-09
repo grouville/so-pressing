@@ -28,7 +28,7 @@ gem "gon"
 # gem ‘twitter’
 ################################################################################
 # Bootstrap & Jquery
-gem 'bootstrap', '~>4.0.0.beta2'
+gem 'bootstrap', '~>4.4.1'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 gem 'jquery-turbolinks'
 gem 'sprockets-rails'
